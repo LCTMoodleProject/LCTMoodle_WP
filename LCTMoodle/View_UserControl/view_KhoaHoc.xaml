@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="LCTMoodle.View_UserControl.view_KhoaHoc"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+    xmlns:appBar="clr-namespace:Cimbalino.Phone.Toolkit.Behaviors;assembly=Cimbalino.Phone.Toolkit"
+    xmlns:Convert="clr-namespace:LCTMoodle.View_Converter"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="630" d:DesignWidth="480">
+
+    <UserControl.Resources>
+        <Convert:converter_HinhAnh x:Name="HinhAnh_Convert"/>
+        <Convert:converter_MoTa x:Name="MoTa_Convert"/>
+    </UserControl.Resources>
+    
+    <Grid x:Name="LayoutRoot" Height="630">
+        <ListBox ItemsSource="{Binding Path=lst_KhoaHoc}"
+                 SelectedItem="{Binding KhoaHocSelected,Mode=TwoWay}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="80"></ColumnDefinition>
+                            <ColumnDefinition Width="375"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="{Binding HinhAnh , Converter={StaticResource HinhAnh_Convert}}"
+                                   Width="70" Height="70"
+                                   Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"></Image>
+                        <StackPanel Grid.Column="1">
+                            <TextBlock Text="{Binding Ten}"
+                                           Foreground="Black"></TextBlock>
+                            <TextBlock Text="{Binding MoTa , Converter={StaticResource MoTa_Convert}}"
+                                           Width="auto"
+                                           Height="auto"
+                                           TextWrapping="Wrap"
+                                           Foreground="#5c5c5c"></TextBlock>
+
+                            <TextBlock Text="{Binding ThongKeKhoaHocCon}" 
+                                           HorizontalAlignment="Right"
+                                           Foreground="#5c5c5c"
+                                           Grid.Column="1"></TextBlock>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</UserControl>

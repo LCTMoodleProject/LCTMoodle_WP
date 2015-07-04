@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://moodle.lctgroup.org/Webservices/wcf_KhoaHoc.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/LCTMoodle.WebServices.Client_Model" />
+  <xs:import schemaLocation="http://moodle.lctgroup.org/Webservices/wcf_KhoaHoc.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/DTOLayer" />
+  <xs:element name="layHinhAnh">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_Ten" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="layHinhAnhResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="layHinhAnhResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="layHinhAnhChiSo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_ChiSo" type="xs:int" />
+        <xs:element minOccurs="0" name="_Ten" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="layHinhAnhChiSoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/LCTMoodle.WebServices.Client_Model" minOccurs="0" name="layHinhAnhChiSoResult" nillable="true" type="q1:clientmodel_HinhAnh" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="layTheoMa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_Ma" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="layTheoMaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/DTOLayer" minOccurs="0" name="layTheoMaResult" nillable="true" type="q2:KhoaHocDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lay">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="layResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/DTOLayer" minOccurs="0" name="layResult" nillable="true" type="q3:ArrayOfKhoaHocDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="layTheoMaChuDe">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_MaChuDe" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="layTheoMaChuDeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/DTOLayer" minOccurs="0" name="layTheoMaChuDeResult" nillable="true" type="q4:ArrayOfKhoaHocDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="layTheoMaNguoiDung">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_MaNguoiDung" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="layTheoMaNguoiDungResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/DTOLayer" minOccurs="0" name="layTheoMaNguoiDungResult" nillable="true" type="q5:ArrayOfKhoaHocDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="layTheoMaNguoiDungVaTrangThai">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_MaNguoiDung" type="xs:int" />
+        <xs:element minOccurs="0" name="_TrangThai" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="layTheoMaNguoiDungVaTrangThaiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/DTOLayer" minOccurs="0" name="layTheoMaNguoiDungVaTrangThaiResult" nillable="true" type="q6:ArrayOfKhoaHocDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="timKiem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_TuKhoa" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="timKiemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/DTOLayer" minOccurs="0" name="timKiemResult" nillable="true" type="q7:ArrayOfKhoaHocDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="timKiemTheoMaChuDe">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_MaChuDe" type="xs:int" />
+        <xs:element minOccurs="0" name="_TuKhoa" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="timKiemTheoMaChuDeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/DTOLayer" minOccurs="0" name="timKiemTheoMaChuDeResult" nillable="true" type="q8:ArrayOfKhoaHocDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

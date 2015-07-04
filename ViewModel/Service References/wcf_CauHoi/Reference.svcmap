@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c38d687d-3761-4b63-9190-d394c554b4ed" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://moodle.lctgroup.org/Webservices/wcf_CauHoi.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="wcf_CauHoi.wsdl" MetadataType="Wsdl" ID="2884496f-1b2d-47e4-8ea8-2b32757f01ef" SourceId="1" SourceUrl="http://moodle.lctgroup.org/Webservices/wcf_CauHoi.svc?wsdl" />
+    <MetadataFile FileName="wcf_CauHoi.xsd" MetadataType="Schema" ID="a9c14d32-5120-424c-9249-5057efeae785" SourceId="1" SourceUrl="http://moodle.lctgroup.org/Webservices/wcf_CauHoi.svc?xsd=xsd1" />
+    <MetadataFile FileName="wcf_CauHoi1.xsd" MetadataType="Schema" ID="ae2eb412-e410-41b6-8197-5493f5ccaff9" SourceId="1" SourceUrl="http://moodle.lctgroup.org/Webservices/wcf_CauHoi.svc?xsd=xsd2" />
+    <MetadataFile FileName="wcf_CauHoi2.xsd" MetadataType="Schema" ID="50324ad7-ac2a-4177-ae35-f16c5d8d599b" SourceId="1" SourceUrl="http://moodle.lctgroup.org/Webservices/wcf_CauHoi.svc?xsd=xsd3" />
+    <MetadataFile FileName="wcf_CauHoi3.xsd" MetadataType="Schema" ID="f7c32174-6af7-4078-bb6d-774f4da1c940" SourceId="1" SourceUrl="http://moodle.lctgroup.org/Webservices/wcf_CauHoi.svc?xsd=xsd0" />
+    <MetadataFile FileName="wcf_CauHoi4.xsd" MetadataType="Schema" ID="7a73d98d-5f74-4aee-94a2-bf316f5a5a21" SourceId="1" SourceUrl="http://moodle.lctgroup.org/Webservices/wcf_CauHoi.svc?xsd=xsd4" />
+    <MetadataFile FileName="wcf_CauHoi.disco" MetadataType="Disco" ID="023ced7b-453c-455a-a4a3-d9882aecfaa4" SourceId="1" SourceUrl="http://moodle.lctgroup.org/Webservices/wcf_CauHoi.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,99 @@
+﻿<UserControl x:Class="LCTMoodle.View_UserControl.view_CauHoi"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Convert="clr-namespace:LCTMoodle.View_Converter"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="630" d:DesignWidth="480">
+    
+    <UserControl.Resources>
+        <Convert:converter_HinhAnh x:Name="HinhAnh_Convert"/>
+    </UserControl.Resources>
+    
+    <Grid x:Name="LayoutRoot" Height="630">
+        <ListBox DataContext="{Binding Path=lst_CauHoi}">
+            <ListBoxItem BorderThickness="0,0,0,15">
+                <Grid>
+                    <Ellipse Width="60" Height="60" Margin="10,2,225,0" HorizontalAlignment="Left">
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="/HinhAnh/HeThong/cau3.png"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Grid>
+                        <TextBlock TextWrapping="Wrap" Text="Cần tư vấn về chương trình visual " FontSize="25" Foreground="Black" Margin="80,5,0,25" VerticalAlignment="Stretch"/>
+                        <TextBlock Text="Trả lời: 20 " FontSize="16" Foreground="#FF6F6D6D" Margin="80,35,0,5" VerticalAlignment="Top" RenderTransformOrigin="0.141,2.038"/>
+                    </Grid>
+                </Grid>
+            </ListBoxItem>
+            <ListBoxItem BorderThickness="0,0,0,15">
+                <Grid>
+                    <Ellipse Width="60" Height="60" Margin="10,2,225,0" HorizontalAlignment="Left">
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="/HinhAnh/HeThong/cau3.png"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Grid>
+                        <TextBlock TextWrapping="Wrap" Text="Cần tư vấn về chương trình visual " FontSize="25" Foreground="Black" Margin="80,5,0,25" VerticalAlignment="Stretch"/>
+                        <TextBlock Text="Trả lời: 20 " FontSize="16" Foreground="#FF6F6D6D" Margin="80,35,0,5" VerticalAlignment="Top" RenderTransformOrigin="0.141,2.038"/>
+                    </Grid>
+                </Grid>
+            </ListBoxItem>
+            <ListBoxItem BorderThickness="0,0,0,15">
+                <Grid>
+                    <Ellipse Width="60" Height="60" Margin="10,2,225,0" HorizontalAlignment="Left">
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="/HinhAnh/HeThong/cau3.png"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Grid>
+                        <TextBlock TextWrapping="Wrap" Text="Cần tư vấn về chương trình visual " FontSize="25" Foreground="Black" Margin="80,5,0,25" VerticalAlignment="Stretch"/>
+                        <TextBlock Text="Trả lời: 20 " FontSize="16" Foreground="#FF6F6D6D" Margin="80,35,0,5" VerticalAlignment="Top" RenderTransformOrigin="0.141,2.038"/>
+                    </Grid>
+                </Grid>
+            </ListBoxItem>
+            <ListBoxItem BorderThickness="0,0,0,15">
+                <Grid>
+                    <Ellipse Width="60" Height="60" Margin="10,2,225,0" HorizontalAlignment="Left">
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="/HinhAnh/HeThong/cau3.png"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Grid>
+                        <TextBlock TextWrapping="Wrap" Text="Cần tư vấn về chương trình visual " FontSize="25" Foreground="Black" Margin="80,5,0,25" VerticalAlignment="Stretch"/>
+                        <TextBlock Text="Trả lời: 20 " FontSize="16" Foreground="#FF6F6D6D" Margin="80,35,0,5" VerticalAlignment="Top" RenderTransformOrigin="0.141,2.038"/>
+                    </Grid>
+                </Grid>
+            </ListBoxItem>
+            <ListBoxItem BorderThickness="0,0,0,15">
+                <Grid>
+                    <Ellipse Width="60" Height="60" Margin="10,2,225,0" HorizontalAlignment="Left">
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="/HinhAnh/HeThong/cau3.png"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Grid>
+                        <TextBlock TextWrapping="Wrap" Text="Cần tư vấn về chương trình visual " FontSize="25" Foreground="Black" Margin="80,5,0,25" VerticalAlignment="Stretch"/>
+                        <TextBlock Text="Trả lời: 20 " FontSize="16" Foreground="#FF6F6D6D" Margin="80,35,0,5" VerticalAlignment="Top" RenderTransformOrigin="0.141,2.038"/>
+                    </Grid>
+                </Grid>
+            </ListBoxItem>
+            <ListBoxItem BorderThickness="0,0,0,15">
+                <Grid>
+                    <Ellipse Width="60" Height="60" Margin="10,2,225,0" HorizontalAlignment="Left">
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="/HinhAnh/HeThong/cau3.png"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Grid>
+                        <TextBlock TextWrapping="Wrap" Text="Cần tư vấn về chương trình visual " FontSize="25" Foreground="Black" Margin="80,5,0,25" VerticalAlignment="Stretch"/>
+                        <TextBlock Text="Trả lời: 20 " FontSize="16" Foreground="#FF6F6D6D" Margin="80,35,0,5" VerticalAlignment="Top" RenderTransformOrigin="0.141,2.038"/>
+                    </Grid>
+                </Grid>
+            </ListBoxItem>
+        </ListBox>
+    </Grid>
+</UserControl>

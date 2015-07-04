@@ -1,0 +1,16 @@
+C:\Users\Phu\Desktop\Huy Phong\Huy Phong\LCTMoodle\LCTMoodle\Helper\Bin\Debug\Helper.dll
+C:\Users\Phu\Desktop\Huy Phong\Huy Phong\LCTMoodle\LCTMoodle\Helper\Bin\Debug\Helper.pdb
+C:\Users\Phu\Desktop\Huy Phong\Huy Phong\LCTMoodle\LCTMoodle\Helper\obj\Debug\Helper.dll
+C:\Users\Phu\Desktop\Huy Phong\Huy Phong\LCTMoodle\LCTMoodle\Helper\obj\Debug\Helper.pdb
+D:\HP\Lam Bao Cao\CapNhat_22_06\LCTMoodle\LCTMoodle\Helper\Bin\Debug\Helper.dll
+D:\HP\Lam Bao Cao\CapNhat_22_06\LCTMoodle\LCTMoodle\Helper\Bin\Debug\Helper.pdb
+D:\HP\Lam Bao Cao\CapNhat_22_06\LCTMoodle\LCTMoodle\Helper\obj\Debug\Helper.dll
+D:\HP\Lam Bao Cao\CapNhat_22_06\LCTMoodle\LCTMoodle\Helper\obj\Debug\Helper.pdb
+D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\Helper\Bin\Debug\Helper.dll
+D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\Helper\Bin\Debug\Helper.pdb
+D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\Helper\obj\Debug\Helper.dll
+D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\Helper\obj\Debug\Helper.pdb
+D:\HP\LCTMoodle\Ver1\WindowsPhone_LCTMoodle\Helper\Bin\Debug\Helper.dll
+D:\HP\LCTMoodle\Ver1\WindowsPhone_LCTMoodle\Helper\Bin\Debug\Helper.pdb
+D:\HP\LCTMoodle\Ver1\WindowsPhone_LCTMoodle\Helper\obj\Debug\Helper.dll
+D:\HP\LCTMoodle\Ver1\WindowsPhone_LCTMoodle\Helper\obj\Debug\Helper.pdb

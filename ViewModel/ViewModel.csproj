@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9F8BF08D-68E9-4968-93B9-37D15723145F}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ViewModel</RootNamespace>
+    <AssemblyName>ViewModel</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\wcf_CauHoi\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wcf_ChuDe\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wcf_KhoaHoc\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wcf_NguoiDung\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="viewmodel_CauHoi.cs" />
+    <Compile Include="viewmodel_DangNhap.cs" />
+    <Compile Include="viewmodel_KhoaHoc.cs" />
+    <Compile Include="viewmodel_TrangChu.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="GalaSoft.MvvmLight">
+      <HintPath>..\packages\MvvmLightLibs.5.1.1.0\lib\wp81\GalaSoft.MvvmLight.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Extras">
+      <HintPath>..\packages\MvvmLightLibs.5.1.1.0\lib\wp81\GalaSoft.MvvmLight.Extras.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Platform">
+      <HintPath>..\packages\MvvmLightLibs.5.1.1.0\lib\wp81\GalaSoft.MvvmLight.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Interactivity, Version=3.9.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.1.1.0\lib\wp81\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcf_CauHoi\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\wcf_CauHoi\configuration.svcinfo" />
+    <None Include="Service References\wcf_CauHoi\configuration91.svcinfo" />
+    <None Include="Service References\wcf_CauHoi\ViewModel.wcf_CauHoi.CauHoiDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wcf_CauHoi\ViewModel.wcf_CauHoi.clientmodel_HinhAnh.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wcf_CauHoi\wcf_CauHoi.disco" />
+    <None Include="Service References\wcf_CauHoi\wcf_CauHoi.wsdl" />
+    <None Include="Service References\wcf_CauHoi\wcf_CauHoi.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_CauHoi\wcf_CauHoi1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_CauHoi\wcf_CauHoi2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_CauHoi\wcf_CauHoi3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_CauHoi\wcf_CauHoi4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_ChuDe\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\wcf_ChuDe\configuration.svcinfo" />
+    <None Include="Service References\wcf_ChuDe\configuration91.svcinfo" />
+    <None Include="Service References\wcf_ChuDe\ViewModel.wcf_ChuDe.ChuDeDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wcf_ChuDe\ViewModel.wcf_ChuDe.clientmodel_HinhAnh.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wcf_ChuDe\wcf_ChuDe.disco" />
+    <None Include="Service References\wcf_ChuDe\wcf_ChuDe.wsdl" />
+    <None Include="Service References\wcf_ChuDe\wcf_ChuDe.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_ChuDe\wcf_ChuDe1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_ChuDe\wcf_ChuDe2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_ChuDe\wcf_ChuDe3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_ChuDe\wcf_ChuDe4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_KhoaHoc\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\wcf_KhoaHoc\configuration.svcinfo" />
+    <None Include="Service References\wcf_KhoaHoc\configuration91.svcinfo" />
+    <None Include="Service References\wcf_KhoaHoc\ViewModel.wcf_KhoaHoc.clientmodel_HinhAnh.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wcf_KhoaHoc\ViewModel.wcf_KhoaHoc.KhoaHocDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wcf_KhoaHoc\wcf_KhoaHoc.disco" />
+    <None Include="packages.config" />
+    <None Include="Service References\wcf_KhoaHoc\wcf_KhoaHoc.wsdl" />
+    <None Include="Service References\wcf_KhoaHoc\wcf_KhoaHoc.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_KhoaHoc\wcf_KhoaHoc1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_KhoaHoc\wcf_KhoaHoc2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_KhoaHoc\wcf_KhoaHoc3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_KhoaHoc\wcf_KhoaHoc4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_NguoiDung\wcf_NguoiDung.wsdl" />
+    <None Include="Service References\wcf_NguoiDung\wcf_NguoiDung.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcf_NguoiDung\wcf_NguoiDung1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="ServiceReferences.ClientConfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\wcf_CauHoi\" />
+    <WCFMetadataStorage Include="Service References\wcf_ChuDe\" />
+    <WCFMetadataStorage Include="Service References\wcf_KhoaHoc\" />
+    <WCFMetadataStorage Include="Service References\wcf_NguoiDung\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcf_NguoiDung\wcf_NguoiDung.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcf_NguoiDung\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcf_NguoiDung\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcf_NguoiDung\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Helper\Helper.csproj">
+      <Project>{6ace0577-4b5e-4bc4-8c0b-3f53e2dd5dc1}</Project>
+      <Name>Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{2ea70d12-96e4-4b5e-adf4-e872106694ca}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <ProjectExtensions />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

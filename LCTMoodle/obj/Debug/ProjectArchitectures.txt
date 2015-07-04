@@ -1,0 +1,4 @@
+D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\Helper\Helper.csproj;neutral
+D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\LCTMoodle.csproj;neutral
+D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\Model\Model.csproj;neutral
+D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\ViewModel\ViewModel.csproj;neutral

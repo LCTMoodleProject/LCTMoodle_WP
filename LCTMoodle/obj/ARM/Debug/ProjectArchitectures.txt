@@ -1,0 +1,1 @@
+D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\LCTMoodle.csproj;arm

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <XAPFiles>
+    <File>resources.pri</File>
+    <File>LCTMoodle.dll</File>
+    <File>Assets\AlignmentGrid.png</File>
+    <File>Assets\BadgeLogo.png</File>
+    <File>Assets\Logo.png</File>
+    <File>Assets\SplashScreen.png</File>
+    <File>Assets\SquareTile150x150.png</File>
+    <File>Assets\SquareTile71x71.png</File>
+    <File>Assets\StoreLogo.png</File>
+    <File>Assets\WideLogo.png</File>
+    <File>Assets\Tiles\FlipCycleTileLarge.png</File>
+    <File>Assets\Tiles\FlipCycleTileSmall.png</File>
+    <File>Assets\Tiles\IconicTileMediumLarge.png</File>
+    <File>Assets\Tiles\IconicTileSmall.png</File>
+    <File>HinhAnh\HeThong\appbar.add.png</File>
+    <File>HinhAnh\HeThong\appbar.check.png</File>
+    <File>HinhAnh\HeThong\appbar.draw.pencil.png</File>
+    <File>HinhAnh\HeThong\appbar.edit.box.png</File>
+    <File>HinhAnh\HeThong\appbar.email.minimal.png</File>
+    <File>HinhAnh\HeThong\appbar.lock.png</File>
+    <File>HinhAnh\HeThong\appbar.people.png</File>
+    <File>HinhAnh\HeThong\arrow_down.png</File>
+    <File>HinhAnh\HeThong\cau1.png</File>
+    <File>HinhAnh\HeThong\cau2.png</File>
+    <File>HinhAnh\HeThong\cau3.png</File>
+    <File>HinhAnh\HeThong\cau4.png</File>
+    <File>HinhAnh\HeThong\cau5.png</File>
+    <File>HinhAnh\HeThong\cau6.png</File>
+    <File>HinhAnh\HeThong\cau7.png</File>
+    <File>HinhAnh\HeThong\cencar.png</File>
+    <File>HinhAnh\HeThong\content.png</File>
+    <File>HinhAnh\HeThong\course-icon.png</File>
+    <File>HinhAnh\HeThong\Documents.png</File>
+    <File>HinhAnh\HeThong\home_acc.png</File>
+    <File>HinhAnh\HeThong\logo.png</File>
+    <File>HinhAnh\HeThong\mail_acc.png</File>
+    <File>HinhAnh\HeThong\phone_acc.png</File>
+    <File>HinhAnh\HeThong\pic_def.png</File>
+    <File>HinhAnh\HeThong\Question.png</File>
+    <File>HinhAnh\HeThong\ten_khoa.png</File>
+    <File>HinhAnh\HeThong\topic-icon.png</File>
+    <File>HinhAnh\HeThong\stick_Icon.png</File>
+    <File>README_FIRST.txt</File>
+    <File>AppManifest.xaml</File>
+    <File>Assets\ApplicationIcon.png</File>
+    <File>Assets\Tiles\FlipCycleTileMedium.png</File>
+    <File>Cimbalino.Phone.Toolkit.Background.dll</File>
+    <File>Cimbalino.Phone.Toolkit.dll</File>
+    <File>Coding4Fun.Toolkit.Controls.dll</File>
+    <File Type="PCL">GalaSoft.MvvmLight.dll</File>
+    <File Type="PCL">GalaSoft.MvvmLight.Extras.dll</File>
+    <File>GalaSoft.MvvmLight.Platform.dll</File>
+    <File>Microsoft.Phone.Controls.Toolkit.dll</File>
+    <File Type="PCL">Microsoft.Practices.ServiceLocation.dll</File>
+    <File>System.Windows.Interactivity.dll</File>
+    <File>Cimbalino.Phone.Toolkit.xml</File>
+    <File>Cimbalino.Phone.Toolkit.Background.xml</File>
+    <File>GalaSoft.MvvmLight.xml</File>
+    <File>GalaSoft.MvvmLight.Extras.xml</File>
+    <File>GalaSoft.MvvmLight.Platform.xml</File>
+    <File>Microsoft.Practices.ServiceLocation.xml</File>
+    <File>WMAppManifest.xml</File>
+    <File>AppxManifest.xml</File>
+  </XAPFiles>
+  <APPXFiles />
+</Files>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="wcf_KhoaHoc" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://moodle.lctgroup.org/Webservices/wcf_KhoaHoc.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://moodle.lctgroup.org/Webservices/wcf_KhoaHoc.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://moodle.lctgroup.org/Webservices/wcf_KhoaHoc.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/LCTMoodle.WebServices.Client_Model" />
+      <xsd:import schemaLocation="http://moodle.lctgroup.org/Webservices/wcf_KhoaHoc.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/DTOLayer" />
+      <xsd:import schemaLocation="http://moodle.lctgroup.org/Webservices/wcf_KhoaHoc.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="Iwcf_KhoaHoc_layHinhAnh_InputMessage">
+    <wsdl:part name="parameters" element="tns:layHinhAnh" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_layHinhAnh_OutputMessage">
+    <wsdl:part name="parameters" element="tns:layHinhAnhResponse" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_layHinhAnhChiSo_InputMessage">
+    <wsdl:part name="parameters" element="tns:layHinhAnhChiSo" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_layHinhAnhChiSo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:layHinhAnhChiSoResponse" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_layTheoMa_InputMessage">
+    <wsdl:part name="parameters" element="tns:layTheoMa" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_layTheoMa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:layTheoMaResponse" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_lay_InputMessage">
+    <wsdl:part name="parameters" element="tns:lay" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_lay_OutputMessage">
+    <wsdl:part name="parameters" element="tns:layResponse" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_layTheoMaChuDe_InputMessage">
+    <wsdl:part name="parameters" element="tns:layTheoMaChuDe" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_layTheoMaChuDe_OutputMessage">
+    <wsdl:part name="parameters" element="tns:layTheoMaChuDeResponse" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_layTheoMaNguoiDung_InputMessage">
+    <wsdl:part name="parameters" element="tns:layTheoMaNguoiDung" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_layTheoMaNguoiDung_OutputMessage">
+    <wsdl:part name="parameters" element="tns:layTheoMaNguoiDungResponse" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_layTheoMaNguoiDungVaTrangThai_InputMessage">
+    <wsdl:part name="parameters" element="tns:layTheoMaNguoiDungVaTrangThai" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_layTheoMaNguoiDungVaTrangThai_OutputMessage">
+    <wsdl:part name="parameters" element="tns:layTheoMaNguoiDungVaTrangThaiResponse" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_timKiem_InputMessage">
+    <wsdl:part name="parameters" element="tns:timKiem" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_timKiem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:timKiemResponse" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_timKiemTheoMaChuDe_InputMessage">
+    <wsdl:part name="parameters" element="tns:timKiemTheoMaChuDe" />
+  </wsdl:message>
+  <wsdl:message name="Iwcf_KhoaHoc_timKiemTheoMaChuDe_OutputMessage">
+    <wsdl:part name="parameters" element="tns:timKiemTheoMaChuDeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Iwcf_KhoaHoc">
+    <wsdl:operation name="layHinhAnh">
+      <wsdl:input wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/layHinhAnh" message="tns:Iwcf_KhoaHoc_layHinhAnh_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/layHinhAnhResponse" message="tns:Iwcf_KhoaHoc_layHinhAnh_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="layHinhAnhChiSo">
+      <wsdl:input wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/layHinhAnhChiSo" message="tns:Iwcf_KhoaHoc_layHinhAnhChiSo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/layHinhAnhChiSoResponse" message="tns:Iwcf_KhoaHoc_layHinhAnhChiSo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="layTheoMa">
+      <wsdl:input wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/layTheoMa" message="tns:Iwcf_KhoaHoc_layTheoMa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/layTheoMaResponse" message="tns:Iwcf_KhoaHoc_layTheoMa_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="lay">
+      <wsdl:input wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/lay" message="tns:Iwcf_KhoaHoc_lay_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/layResponse" message="tns:Iwcf_KhoaHoc_lay_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="layTheoMaChuDe">
+      <wsdl:input wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/layTheoMaChuDe" message="tns:Iwcf_KhoaHoc_layTheoMaChuDe_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/layTheoMaChuDeResponse" message="tns:Iwcf_KhoaHoc_layTheoMaChuDe_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="layTheoMaNguoiDung">
+      <wsdl:input wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/layTheoMaNguoiDung" message="tns:Iwcf_KhoaHoc_layTheoMaNguoiDung_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/layTheoMaNguoiDungResponse" message="tns:Iwcf_KhoaHoc_layTheoMaNguoiDung_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="layTheoMaNguoiDungVaTrangThai">
+      <wsdl:input wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/layTheoMaNguoiDungVaTrangThai" message="tns:Iwcf_KhoaHoc_layTheoMaNguoiDungVaTrangThai_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/layTheoMaNguoiDungVaTrangThaiResponse" message="tns:Iwcf_KhoaHoc_layTheoMaNguoiDungVaTrangThai_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="timKiem">
+      <wsdl:input wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/timKiem" message="tns:Iwcf_KhoaHoc_timKiem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/timKiemResponse" message="tns:Iwcf_KhoaHoc_timKiem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="timKiemTheoMaChuDe">
+      <wsdl:input wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/timKiemTheoMaChuDe" message="tns:Iwcf_KhoaHoc_timKiemTheoMaChuDe_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Iwcf_KhoaHoc/timKiemTheoMaChuDeResponse" message="tns:Iwcf_KhoaHoc_timKiemTheoMaChuDe_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_Iwcf_KhoaHoc" type="tns:Iwcf_KhoaHoc">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="layHinhAnh">
+      <soap:operation soapAction="http://tempuri.org/Iwcf_KhoaHoc/layHinhAnh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="layHinhAnhChiSo">
+      <soap:operation soapAction="http://tempuri.org/Iwcf_KhoaHoc/layHinhAnhChiSo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="layTheoMa">
+      <soap:operation soapAction="http://tempuri.org/Iwcf_KhoaHoc/layTheoMa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="lay">
+      <soap:operation soapAction="http://tempuri.org/Iwcf_KhoaHoc/lay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="layTheoMaChuDe">
+      <soap:operation soapAction="http://tempuri.org/Iwcf_KhoaHoc/layTheoMaChuDe" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="layTheoMaNguoiDung">
+      <soap:operation soapAction="http://tempuri.org/Iwcf_KhoaHoc/layTheoMaNguoiDung" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="layTheoMaNguoiDungVaTrangThai">
+      <soap:operation soapAction="http://tempuri.org/Iwcf_KhoaHoc/layTheoMaNguoiDungVaTrangThai" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="timKiem">
+      <soap:operation soapAction="http://tempuri.org/Iwcf_KhoaHoc/timKiem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="timKiemTheoMaChuDe">
+      <soap:operation soapAction="http://tempuri.org/Iwcf_KhoaHoc/timKiemTheoMaChuDe" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wcf_KhoaHoc">
+    <wsdl:port name="BasicHttpBinding_Iwcf_KhoaHoc" binding="tns:BasicHttpBinding_Iwcf_KhoaHoc">
+      <soap:address location="http://moodle.lctgroup.org/Webservices/wcf_KhoaHoc.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

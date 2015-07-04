@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="457288a8-0947-4f90-a14d-d74bda075d34" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://moodle.lctgroup.org/Webservices/wcf_ChuDe.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="wcf_ChuDe.xsd" MetadataType="Schema" ID="6e977157-84c5-4af3-9e82-d23f56cc87d0" SourceId="1" SourceUrl="http://moodle.lctgroup.org/Webservices/wcf_ChuDe.svc?xsd=xsd0" />
+    <MetadataFile FileName="wcf_ChuDe1.xsd" MetadataType="Schema" ID="41b8ce8b-8d6c-40cf-833a-c6e9128667c0" SourceId="1" SourceUrl="http://moodle.lctgroup.org/Webservices/wcf_ChuDe.svc?xsd=xsd1" />
+    <MetadataFile FileName="wcf_ChuDe.disco" MetadataType="Disco" ID="c40b801b-222e-43b9-a8d7-d79ec81f2f1f" SourceId="1" SourceUrl="http://moodle.lctgroup.org/Webservices/wcf_ChuDe.svc?disco" />
+    <MetadataFile FileName="wcf_ChuDe.wsdl" MetadataType="Wsdl" ID="210b4735-5694-4e90-a005-b03ca1a71501" SourceId="1" SourceUrl="http://moodle.lctgroup.org/Webservices/wcf_ChuDe.svc?wsdl" />
+    <MetadataFile FileName="wcf_ChuDe4.xsd" MetadataType="Schema" ID="0ed9ddca-7d4f-4731-944b-ce3522e0d93c" SourceId="1" SourceUrl="http://moodle.lctgroup.org/Webservices/wcf_ChuDe.svc?xsd=xsd4" />
+    <MetadataFile FileName="wcf_ChuDe2.xsd" MetadataType="Schema" ID="e46addf3-9d30-4fa9-8316-c93e4d289262" SourceId="1" SourceUrl="http://moodle.lctgroup.org/Webservices/wcf_ChuDe.svc?xsd=xsd2" />
+    <MetadataFile FileName="wcf_ChuDe3.xsd" MetadataType="Schema" ID="b3bca38d-12c2-4647-8539-0f78f407fcf1" SourceId="1" SourceUrl="http://moodle.lctgroup.org/Webservices/wcf_ChuDe.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

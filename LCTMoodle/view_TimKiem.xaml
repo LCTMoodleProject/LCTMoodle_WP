@@ -1,0 +1,41 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="LCTMoodle.view_TimKiem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Rectangle Fill="#FF004263" HorizontalAlignment="Left" Height="65" Grid.RowSpan="2" Stroke="Black" VerticalAlignment="Top" Width="480"/>
+        <TextBlock HorizontalAlignment="Left" Margin="46,10,0,0" TextWrapping="Wrap" Text="TÌM KIẾM" VerticalAlignment="Top" Height="47" Width="377" FontFamily="Segoe WP Light" FontSize="35" TextAlignment="Center"/>
+        <Grid Margin="0,89,0,352">
+        	<StackPanel Margin="0">
+        		<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="460" Text="Bạn có thể tìm kiếm một khóa học hay câu hỏi ngẫu nhiên, nhập nội dung mà bạn muốn tìm vào ô trống bên dưới." FontSize="20" Foreground="#FF8D7979" Margin="10,0,0,0"/>
+        		<TextBox x:Name="txt_email_quenmk" HorizontalAlignment="Left" Height="72" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="480" BorderBrush="#BF7E7676"/>
+        		<toolkit:ListPicker Foreground="#FF004263" BorderThickness="0" Margin="7,0,0,0" HorizontalAlignment="Left" BorderBrush="#FF20D66B" Background="Transparent">
+        			<toolkit:ListPickerItem>
+        				<TextBlock Text="Tất cả" Margin="0"/>
+        			</toolkit:ListPickerItem>
+        			<toolkit:ListPickerItem>
+        				<TextBlock Text="Khóa học"/>
+        			</toolkit:ListPickerItem>
+        			<toolkit:ListPickerItem>
+        				<TextBlock Text="Câu hỏi"/>
+        			</toolkit:ListPickerItem>
+        		</toolkit:ListPicker>
+        		<Button x:Name="btnTimKhoaHoc" Content="Tìm" Margin="0,10,0,0" VerticalAlignment="Top" Background="#FF004263" Height="78" FontSize="22"/>
+        	</StackPanel>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
