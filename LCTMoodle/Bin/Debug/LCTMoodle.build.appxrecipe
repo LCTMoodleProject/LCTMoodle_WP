@@ -7,369 +7,384 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>4cf3e2a8-430d-403d-94de-fb99fdbac0c8</PackageIdentityName>
-    <IntermediateOutputPath>D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Bin\Debug\LCTMoodle.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Bin\Debug\LCTMoodle.dll">
       <PackagePath>LCTMoodle.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\ViewModel\Bin\Debug\ViewModel.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\ViewModel\Bin\Debug\ViewModel.dll">
       <PackagePath>ViewModel.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\Helper\Bin\Debug\Helper.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\Helper\Bin\Debug\Helper.dll">
       <PackagePath>Helper.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\Model\Bin\Debug\Model.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\Model\Bin\Debug\Model.dll">
       <PackagePath>Model.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\Cimbalino.Phone.Toolkit.Background.3.2.3\lib\wp8\Cimbalino.Phone.Toolkit.Background.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\Cimbalino.Phone.Toolkit.Background.3.2.3\lib\wp8\Cimbalino.Phone.Toolkit.Background.dll">
       <PackagePath>Cimbalino.Phone.Toolkit.Background.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\Cimbalino.Phone.Toolkit.3.2.3\lib\wp8\Cimbalino.Phone.Toolkit.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\Cimbalino.Phone.Toolkit.3.2.3\lib\wp8\Cimbalino.Phone.Toolkit.dll">
       <PackagePath>Cimbalino.Phone.Toolkit.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Coding4Fun.Toolkit.Controls.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Coding4Fun.Toolkit.Controls.dll">
       <PackagePath>Coding4Fun.Toolkit.Controls.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\MvvmLightLibs.5.1.1.0\lib\wp81\GalaSoft.MvvmLight.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\MvvmLightLibs.5.1.1.0\lib\wp81\GalaSoft.MvvmLight.dll">
       <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\MvvmLightLibs.5.1.1.0\lib\wp81\GalaSoft.MvvmLight.Extras.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\MvvmLightLibs.5.1.1.0\lib\wp81\GalaSoft.MvvmLight.Extras.dll">
       <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\MvvmLightLibs.5.1.1.0\lib\wp81\GalaSoft.MvvmLight.Platform.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\MvvmLightLibs.5.1.1.0\lib\wp81\GalaSoft.MvvmLight.Platform.dll">
       <PackagePath>GalaSoft.MvvmLight.Platform.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll">
       <PackagePath>Microsoft.Phone.Controls.Toolkit.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
       <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\MvvmLightLibs.5.1.1.0\lib\wp81\System.Windows.Interactivity.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\MvvmLightLibs.5.1.1.0\lib\wp81\System.Windows.Interactivity.dll">
       <PackagePath>System.Windows.Interactivity.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\WPtoolkit.4.2013.08.16\lib\wp8\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\WPtoolkit.4.2013.08.16\lib\wp8\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll">
       <PackagePath>zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\Cimbalino.Phone.Toolkit.3.2.3\lib\wp8\Cimbalino.Phone.Toolkit.xml">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\Cimbalino.Phone.Toolkit.3.2.3\lib\wp8\Cimbalino.Phone.Toolkit.xml">
       <PackagePath>Cimbalino.Phone.Toolkit.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\Cimbalino.Phone.Toolkit.Background.3.2.3\lib\wp8\Cimbalino.Phone.Toolkit.Background.xml">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\Cimbalino.Phone.Toolkit.Background.3.2.3\lib\wp8\Cimbalino.Phone.Toolkit.Background.xml">
       <PackagePath>Cimbalino.Phone.Toolkit.Background.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\MvvmLightLibs.5.1.1.0\lib\wp81\GalaSoft.MvvmLight.xml">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\MvvmLightLibs.5.1.1.0\lib\wp81\GalaSoft.MvvmLight.xml">
       <PackagePath>GalaSoft.MvvmLight.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\MvvmLightLibs.5.1.1.0\lib\wp81\GalaSoft.MvvmLight.Extras.xml">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\MvvmLightLibs.5.1.1.0\lib\wp81\GalaSoft.MvvmLight.Extras.xml">
       <PackagePath>GalaSoft.MvvmLight.Extras.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\MvvmLightLibs.5.1.1.0\lib\wp81\GalaSoft.MvvmLight.Platform.xml">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\MvvmLightLibs.5.1.1.0\lib\wp81\GalaSoft.MvvmLight.Platform.xml">
       <PackagePath>GalaSoft.MvvmLight.Platform.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.xml">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.xml">
       <PackagePath>Microsoft.Practices.ServiceLocation.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Assets\AlignmentGrid.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Assets\AlignmentGrid.png">
       <PackagePath>Assets\AlignmentGrid.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Assets\ApplicationIcon.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Assets\ApplicationIcon.png">
       <PackagePath>Assets\ApplicationIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Assets\BadgeLogo.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Assets\BadgeLogo.png">
       <PackagePath>Assets\BadgeLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Assets\Logo.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Assets\SquareTile150x150.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Assets\SquareTile150x150.png">
       <PackagePath>Assets\SquareTile150x150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Assets\SquareTile71x71.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Assets\SquareTile71x71.png">
       <PackagePath>Assets\SquareTile71x71.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Assets\WideLogo.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Assets\WideLogo.png">
       <PackagePath>Assets\WideLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Assets\Tiles\FlipCycleTileLarge.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Assets\Tiles\FlipCycleTileLarge.png">
       <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Assets\Tiles\FlipCycleTileMedium.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Assets\Tiles\FlipCycleTileMedium.png">
       <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Assets\Tiles\FlipCycleTileSmall.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Assets\Tiles\FlipCycleTileSmall.png">
       <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Assets\Tiles\IconicTileMediumLarge.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Assets\Tiles\IconicTileMediumLarge.png">
       <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Assets\Tiles\IconicTileSmall.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Assets\Tiles\IconicTileSmall.png">
       <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\appbar.add.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.add.png">
       <PackagePath>HinhAnh\HeThong\appbar.add.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\appbar.check.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.check.png">
       <PackagePath>HinhAnh\HeThong\appbar.check.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\appbar.delete.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.clock.png">
+      <PackagePath>HinhAnh\HeThong\appbar.clock.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.delete.png">
       <PackagePath>HinhAnh\HeThong\appbar.delete.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\appbar.draw.pencil.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.draw.pencil.png">
       <PackagePath>HinhAnh\HeThong\appbar.draw.pencil.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\appbar.edit.box.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.edit.box.png">
       <PackagePath>HinhAnh\HeThong\appbar.edit.box.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\appbar.edit.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.edit.png">
       <PackagePath>HinhAnh\HeThong\appbar.edit.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\appbar.email.minimal.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.email.minimal.png">
       <PackagePath>HinhAnh\HeThong\appbar.email.minimal.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\appbar.lock.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.lock.png">
       <PackagePath>HinhAnh\HeThong\appbar.lock.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\appbar.page.search.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.message.png">
+      <PackagePath>HinhAnh\HeThong\appbar.message.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.page.search.png">
       <PackagePath>HinhAnh\HeThong\appbar.page.search.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\appbar.people.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.people.png">
       <PackagePath>HinhAnh\HeThong\appbar.people.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\arrow_down.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.settings.png">
+      <PackagePath>HinhAnh\HeThong\appbar.settings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\arrow_down.png">
       <PackagePath>HinhAnh\HeThong\arrow_down.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\cau1.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\cau1.png">
       <PackagePath>HinhAnh\HeThong\cau1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\cau2.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\cau2.png">
       <PackagePath>HinhAnh\HeThong\cau2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\cau3.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\cau3.png">
       <PackagePath>HinhAnh\HeThong\cau3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\cau4.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\cau4.png">
       <PackagePath>HinhAnh\HeThong\cau4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\cau5.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\cau5.png">
       <PackagePath>HinhAnh\HeThong\cau5.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\cau6.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\cau6.png">
       <PackagePath>HinhAnh\HeThong\cau6.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\cau7.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\cau7.png">
       <PackagePath>HinhAnh\HeThong\cau7.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\cencar.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\cencar.png">
       <PackagePath>HinhAnh\HeThong\cencar.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\content.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\content.png">
       <PackagePath>HinhAnh\HeThong\content.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\course-icon.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\course-icon.png">
       <PackagePath>HinhAnh\HeThong\course-icon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\Documents.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\Documents.png">
       <PackagePath>HinhAnh\HeThong\Documents.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\home_acc.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\feature.search.png">
+      <PackagePath>HinhAnh\HeThong\feature.search.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\home_acc.png">
       <PackagePath>HinhAnh\HeThong\home_acc.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\logo.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\logo.png">
       <PackagePath>HinhAnh\HeThong\logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\mail_acc.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\mail_acc.png">
       <PackagePath>HinhAnh\HeThong\mail_acc.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\phone_acc.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\phone_acc.png">
       <PackagePath>HinhAnh\HeThong\phone_acc.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\pic_def.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\pic_def.png">
       <PackagePath>HinhAnh\HeThong\pic_def.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\Question.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\Question.png">
       <PackagePath>HinhAnh\HeThong\Question.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\ten_khoa.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\ten_khoa.png">
       <PackagePath>HinhAnh\HeThong\ten_khoa.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\topic-icon.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\topic-icon.png">
       <PackagePath>HinhAnh\HeThong\topic-icon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\HinhAnh\HeThong\stick_Icon.png">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\stick_Icon.png">
       <PackagePath>HinhAnh\HeThong\stick_Icon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\README_FIRST.txt">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\refresh.png">
+      <PackagePath>HinhAnh\HeThong\refresh.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\README_FIRST.txt">
       <PackagePath>README_FIRST.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\ViewModel\ServiceReferences.ClientConfig">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\ViewModel\ServiceReferences.ClientConfig">
       <PackagePath>ServiceReferences.ClientConfig</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\LCTMoodle_WindowsPhone\WindowsPhone_LCTMoodle\LCTMoodle\Bin\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\LCTMoodle_WP\LCTMoodle_WP\LCTMoodle\Bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

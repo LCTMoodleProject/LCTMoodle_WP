@@ -17,14 +17,17 @@
     <File>Assets\Tiles\IconicTileSmall.png</File>
     <File>HinhAnh\HeThong\appbar.add.png</File>
     <File>HinhAnh\HeThong\appbar.check.png</File>
+    <File>HinhAnh\HeThong\appbar.clock.png</File>
     <File>HinhAnh\HeThong\appbar.delete.png</File>
     <File>HinhAnh\HeThong\appbar.draw.pencil.png</File>
     <File>HinhAnh\HeThong\appbar.edit.box.png</File>
     <File>HinhAnh\HeThong\appbar.edit.png</File>
     <File>HinhAnh\HeThong\appbar.email.minimal.png</File>
     <File>HinhAnh\HeThong\appbar.lock.png</File>
+    <File>HinhAnh\HeThong\appbar.message.png</File>
     <File>HinhAnh\HeThong\appbar.page.search.png</File>
     <File>HinhAnh\HeThong\appbar.people.png</File>
+    <File>HinhAnh\HeThong\appbar.settings.png</File>
     <File>HinhAnh\HeThong\arrow_down.png</File>
     <File>HinhAnh\HeThong\cau1.png</File>
     <File>HinhAnh\HeThong\cau2.png</File>
@@ -37,6 +40,7 @@
     <File>HinhAnh\HeThong\content.png</File>
     <File>HinhAnh\HeThong\course-icon.png</File>
     <File>HinhAnh\HeThong\Documents.png</File>
+    <File>HinhAnh\HeThong\feature.search.png</File>
     <File>HinhAnh\HeThong\home_acc.png</File>
     <File>HinhAnh\HeThong\logo.png</File>
     <File>HinhAnh\HeThong\mail_acc.png</File>
@@ -46,6 +50,7 @@
     <File>HinhAnh\HeThong\ten_khoa.png</File>
     <File>HinhAnh\HeThong\topic-icon.png</File>
     <File>HinhAnh\HeThong\stick_Icon.png</File>
+    <File>HinhAnh\HeThong\refresh.png</File>
     <File>README_FIRST.txt</File>
     <File>AppManifest.xaml</File>
     <File>Assets\ApplicationIcon.png</File>

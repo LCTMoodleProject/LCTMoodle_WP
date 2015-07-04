@@ -13,6 +13,7 @@ Assets\Tiles\IconicTileMediumLarge.png
 Assets\Tiles\IconicTileSmall.png
 Assets\WideLogo.png
 HinhAnh\HeThong\appbar.add.png
+HinhAnh\HeThong\appbar.clock.png
 HinhAnh\HeThong\appbar.check.png
 HinhAnh\HeThong\appbar.delete.png
 HinhAnh\HeThong\appbar.draw.pencil.png
@@ -20,8 +21,10 @@ HinhAnh\HeThong\appbar.edit.box.png
 HinhAnh\HeThong\appbar.edit.png
 HinhAnh\HeThong\appbar.email.minimal.png
 HinhAnh\HeThong\appbar.lock.png
+HinhAnh\HeThong\appbar.message.png
 HinhAnh\HeThong\appbar.page.search.png
 HinhAnh\HeThong\appbar.people.png
+HinhAnh\HeThong\appbar.settings.png
 HinhAnh\HeThong\arrow_down.png
 HinhAnh\HeThong\cau1.png
 HinhAnh\HeThong\cau2.png
@@ -34,12 +37,14 @@ HinhAnh\HeThong\cencar.png
 HinhAnh\HeThong\content.png
 HinhAnh\HeThong\course-icon.png
 HinhAnh\HeThong\Documents.png
+HinhAnh\HeThong\feature.search.png
 HinhAnh\HeThong\home_acc.png
 HinhAnh\HeThong\logo.png
 HinhAnh\HeThong\mail_acc.png
 HinhAnh\HeThong\pic_def.png
 HinhAnh\HeThong\phone_acc.png
 HinhAnh\HeThong\Question.png
+HinhAnh\HeThong\refresh.png
 HinhAnh\HeThong\stick_Icon.png
 HinhAnh\HeThong\ten_khoa.png
 HinhAnh\HeThong\topic-icon.png

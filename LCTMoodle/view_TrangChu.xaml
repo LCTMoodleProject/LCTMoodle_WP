@@ -291,16 +291,25 @@
                                            >
                 <appBar:ApplicationBarIconButton IconUri="/HinhAnh/HeThong/appbar.add.png"
                                                  Text="thêm"
-                                                 IsVisible="{Binding Them}"/>
-                <appBar:ApplicationBarIconButton IconUri="/HinhAnh/HeThong/appbar.edit.png"
-                                                 Text="sửa"
-                                                 IsVisible="{Binding Sua}"/>
-                <appBar:ApplicationBarIconButton IconUri="/HinhAnh/HeThong/appbar.delete.png"
-                                                 Text="xóa"
-                                                 IsVisible="{Binding Xoa}"/>
-                <appBar:ApplicationBarIconButton IconUri="/HinhAnh/HeThong/appbar.page.search.png"
+                                                 IsVisible="{Binding ThemVisible}"/>
+                <appBar:ApplicationBarIconButton IconUri="/HinhAnh/HeThong/appbar.people.png"
+                                                 Text="thông tin"
+                                                 IsVisible="{Binding TaiKhoanVisible}"/>
+                <appBar:ApplicationBarIconButton IconUri="/HinhAnh/HeThong/appbar.clock.png"
+                                                 Text="thông báo"
+                                                 IsVisible="{Binding BaoThucVisible}"/>
+                <appBar:ApplicationBarIconButton IconUri="/HinhAnh/HeThong/appbar.settings.png"
+                                                 Text="cài đặt"
+                                                 IsVisible="{Binding CaiDatVisible}"/>
+                <appBar:ApplicationBarIconButton IconUri="/HinhAnh/HeThong/appbar.message.png"
+                                                 Text="tin nhắn"
+                                                 IsVisible="{Binding TinNhanVisible}"/>
+                <appBar:ApplicationBarIconButton IconUri="/HinhAnh/HeThong/feature.search.png"
                                                  Text="tìm kiếm"
-                                                 IsVisible="{Binding TimKiem}"/>
+                                                 IsVisible="{Binding TimKiemVisible}"/>
+                <appBar:ApplicationBarIconButton IconUri="/HinhAnh/HeThong/refresh.png"
+                                                 Text="tải lại"
+                                                 IsVisible="{Binding TaiLaiVisible}"/>
             </appBar:ApplicationBarBehavior>
         </i:Interaction.Behaviors>
     </Grid>

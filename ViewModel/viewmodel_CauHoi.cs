@@ -16,12 +16,16 @@ namespace ViewModel
 
         public bool _HoanThanh;
 
+        private int _DemCauHoi;
+
         public viewmodel_CauHoi()
         {
+            lst_CauHoi = new ObservableCollection<model_CauHoi>();
             ws_LayCauHoi();
         }
 
         #region Webservice
+
         /// <summary>
         /// Hàm lấy danh sách câu hỏi từ wcf_CauHoi
         /// </summary>
@@ -31,7 +35,7 @@ namespace ViewModel
             client_CauHoi.layAsync(20);
             client_CauHoi.layCompleted += (s, e) =>
             {
-                if (e.Result.Count != null)
+                if (e.Result.Count != 0)
                 {
                     foreach (var cauHoi in e.Result)
                     {
@@ -41,13 +45,17 @@ namespace ViewModel
                             TieuDe = cauHoi.tieuDe,
                             NoiDung = cauHoi.noiDung,
                             NguoiTao = cauHoi.nguoiTao.ten,
-                            SoTraLoi = cauHoi.soLuongTraLoi,
+                            SoTraLoi = cauHoi.soLuongTraLoi.Value,
                         });
 
                         ws_LayAnhCauHoi(lst_CauHoi.Count, cauHoi.nguoiTao.hinhDaiDien.ma + cauHoi.nguoiTao.hinhDaiDien.duoi);
                     }
-                };
-            }
+                }
+                else
+                {
+                    _HoanThanh = true;
+                }
+            };
         }
 
         /// <summary>
@@ -64,6 +72,13 @@ namespace ViewModel
                     if (e.Result != null)
                     {
                         lst_CauHoi[e.Result._ChiSo].HinhAnh = e.Result._HinhAnh;
+                    }
+
+                    _DemCauHoi++;
+
+                    if(_DemCauHoi == lst_CauHoi.Count)
+                    {
+                        _HoanThanh = true;
                     }
                 };
         }

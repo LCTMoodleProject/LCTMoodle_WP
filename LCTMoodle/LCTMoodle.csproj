@@ -257,14 +257,17 @@
     </Content>
     <Content Include="HinhAnh\HeThong\appbar.add.png" />
     <Content Include="HinhAnh\HeThong\appbar.check.png" />
+    <Content Include="HinhAnh\HeThong\appbar.clock.png" />
     <Content Include="HinhAnh\HeThong\appbar.delete.png" />
     <Content Include="HinhAnh\HeThong\appbar.draw.pencil.png" />
     <Content Include="HinhAnh\HeThong\appbar.edit.box.png" />
     <Content Include="HinhAnh\HeThong\appbar.edit.png" />
     <Content Include="HinhAnh\HeThong\appbar.email.minimal.png" />
     <Content Include="HinhAnh\HeThong\appbar.lock.png" />
+    <Content Include="HinhAnh\HeThong\appbar.message.png" />
     <Content Include="HinhAnh\HeThong\appbar.page.search.png" />
     <Content Include="HinhAnh\HeThong\appbar.people.png" />
+    <Content Include="HinhAnh\HeThong\appbar.settings.png" />
     <Content Include="HinhAnh\HeThong\arrow_down.png" />
     <Content Include="HinhAnh\HeThong\cau1.png" />
     <Content Include="HinhAnh\HeThong\cau2.png" />
@@ -277,6 +280,7 @@
     <Content Include="HinhAnh\HeThong\content.png" />
     <Content Include="HinhAnh\HeThong\course-icon.png" />
     <Content Include="HinhAnh\HeThong\Documents.png" />
+    <Content Include="HinhAnh\HeThong\feature.search.png" />
     <Content Include="HinhAnh\HeThong\home_acc.png" />
     <Content Include="HinhAnh\HeThong\logo.png" />
     <Content Include="HinhAnh\HeThong\mail_acc.png" />
@@ -286,6 +290,7 @@
     <Content Include="HinhAnh\HeThong\ten_khoa.png" />
     <Content Include="HinhAnh\HeThong\topic-icon.png" />
     <Content Include="HinhAnh\HeThong\stick_Icon.png" />
+    <Content Include="HinhAnh\HeThong\refresh.png" />
     <Content Include="README_FIRST.txt" />
   </ItemGroup>
   <ItemGroup>

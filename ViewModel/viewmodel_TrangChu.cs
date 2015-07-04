@@ -23,16 +23,19 @@ namespace ViewModel
             set
             {
                 XuLyThayDoiTrang(value);
-                RaisePropertyChanged("M_TrangChu");
+                //RaisePropertyChanged("selectedIndex");
             }
         }
 
         public viewmodel_TrangChu()
         {
-            TimKiem = true;
-            Them = false;
-            Xoa = false;
-            Sua = false;
+            TaiLaiVisible = true;
+            TimKiemVisible = true;
+            ThemVisible = false;
+            CaiDatVisible = true;
+            BaoThucVisible = false;
+            TaiKhoanVisible = false;
+            TinNhanVisible = false;
         }
 
         /// <summary>
@@ -41,37 +44,43 @@ namespace ViewModel
         /// <param name="_selectedIndex"></param>
         public void XuLyThayDoiTrang(int _selectedIndex)
         {
-            TimKiem = false;
-            Them = false;
-            Xoa = false;
-            Sua = false;
+            TaiLaiVisible = false;
+            TimKiemVisible = false;
+            ThemVisible = false;
+            CaiDatVisible = false;
+            BaoThucVisible = false;
+            TaiKhoanVisible = false;
+            TinNhanVisible = false;
 
             switch(_selectedIndex)
             {
                 case 0:
                     {
-                        TimKiem = true;
+                        TaiLaiVisible = true;
+                        TimKiemVisible = true;
+                        CaiDatVisible = true;
                         break;
                     }
                 case 1:
                     {
-                        TimKiem = true;
-                        Them = true;
-                        Xoa = true;
-                        Sua = true;
+                        TaiLaiVisible = true;
+                        TimKiemVisible = true;
+                        ThemVisible = true;
                         break;
                     }
                 case 2:
                     {
-                        TimKiem = true;
-                        Them = true;
-                        Xoa = true;
-                        Sua = true;
+                        TaiLaiVisible = true;
+                        TimKiemVisible = true;
+                        ThemVisible = true;
                         break;
                     }
                 case 3:
                     {
-                        TimKiem = true;
+                        TaiKhoanVisible = true;
+                        TaiKhoanVisible = true;
+                        BaoThucVisible = true;
+                        TaiLaiVisible = true;
                         break;
                     }
             }
@@ -79,62 +88,105 @@ namespace ViewModel
 
 
         #region thuộc tính appbar
-        private bool _TimKiem;
-        private bool _Them;
-        private bool _Xoa;
-        private bool _Sua;
+        private bool _TaiLaiVisible;
+        private bool _TimKiemVisible;
+        private bool _ThemVisible;
+        private bool _CaiDatVisible;
+        private bool _BaoThucVisible;
+        private bool _TaiKhoanVisible;
+        private bool _TinNhanVisible;
 
-        public bool TimKiem
+        public bool TaiLaiVisible
         {
             get
             {
-                return _TimKiem;
+                return _TaiLaiVisible;
             }
             set
             {
-                _TimKiem = value;
-                RaisePropertyChanged("TimKiem");
+                _TaiLaiVisible = value;
+                RaisePropertyChanged("TaiLaiVisible");
             }
         }
 
-        public bool Them
+        public bool TimKiemVisible
         {
             get
             {
-                return _Them;
+                return _TimKiemVisible;
             }
             set
             {
-                _Them = value;
-                RaisePropertyChanged("Them");
+                _TimKiemVisible = value;
+                RaisePropertyChanged("TimKiemVisible");
             }
         }
 
-        public bool Xoa
+        public bool ThemVisible
         {
             get
             {
-                return _Xoa;
+                return _ThemVisible;
             }
             set
             {
-                _Xoa = value;
-                RaisePropertyChanged("Xoa");
+                _ThemVisible = value;
+                RaisePropertyChanged("ThemVisible");
             }
         }
 
-        public bool Sua
+        public bool CaiDatVisible
         {
             get
             {
-                return _Sua;
+                return _CaiDatVisible;
             }
             set
             {
-                _Sua = value;
-                RaisePropertyChanged("Sua");
+                _CaiDatVisible = value;
+                RaisePropertyChanged("CaiDatVisible");
             }
         }
+
+        public bool BaoThucVisible
+        {
+            get
+            {
+                return _BaoThucVisible;
+            }
+            set
+            {
+                _BaoThucVisible = value;
+                RaisePropertyChanged("BaoThucVisible");
+            }
+        }
+
+        public bool TaiKhoanVisible
+        {
+            get
+            {
+                return _TaiKhoanVisible;
+            }
+            set
+            {
+                _TaiKhoanVisible = value;
+                RaisePropertyChanged("TaiKhoanVisible");
+            }
+        }
+
+        public bool TinNhanVisible
+        {
+            get
+            {
+                return _TinNhanVisible;
+            }
+            set
+            {
+                _TinNhanVisible = value;
+                RaisePropertyChanged("TinNhanVisible");
+            }
+        }
+
         #endregion
     }
 }
