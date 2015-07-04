@@ -67,6 +67,7 @@
     <File>ViewModel.dll</File>
     <File>Model.dll</File>
     <File>Helper.dll</File>
+    <File>Md5.WP7.dll</File>
     <File>Cimbalino.Phone.Toolkit.xml</File>
     <File>Cimbalino.Phone.Toolkit.Background.xml</File>
     <File>GalaSoft.MvvmLight.xml</File>

@@ -84,6 +84,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ModelBase.cs" />
+    <Compile Include="model_Captcha.cs" />
     <Compile Include="model_CauHoi.cs" />
     <Compile Include="model_DangNhap.cs" />
     <Compile Include="model_KhoaHoc.cs" />

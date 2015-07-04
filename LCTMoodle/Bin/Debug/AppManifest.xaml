@@ -13,5 +13,6 @@
     <AssemblyPart x:Name="ViewModel" Source="ViewModel.dll" />
     <AssemblyPart x:Name="Model" Source="Model.dll" />
     <AssemblyPart x:Name="Helper" Source="Helper.dll" />
+    <AssemblyPart x:Name="Md5.WP7" Source="Md5.WP7.dll" />
   </Deployment.Parts>
 </Deployment>

@@ -104,6 +104,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="viewmodel_Captcha.cs" />
     <Compile Include="viewmodel_CauHoi.cs" />
     <Compile Include="viewmodel_DangNhap.cs" />
     <Compile Include="viewmodel_KhoaHoc.cs" />
