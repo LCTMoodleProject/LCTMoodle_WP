@@ -15,6 +15,8 @@
     <File>Assets\Tiles\FlipCycleTileSmall.png</File>
     <File>Assets\Tiles\IconicTileMediumLarge.png</File>
     <File>Assets\Tiles\IconicTileSmall.png</File>
+    <File>BaiGiang.html</File>
+    <File>HinhAnh\HeThong\alarm_clock.png</File>
     <File>HinhAnh\HeThong\appbar.add.png</File>
     <File>HinhAnh\HeThong\appbar.check.png</File>
     <File>HinhAnh\HeThong\appbar.clock.png</File>
@@ -23,6 +25,7 @@
     <File>HinhAnh\HeThong\appbar.edit.box.png</File>
     <File>HinhAnh\HeThong\appbar.edit.png</File>
     <File>HinhAnh\HeThong\appbar.email.minimal.png</File>
+    <File>HinhAnh\HeThong\appbar.list.png</File>
     <File>HinhAnh\HeThong\appbar.lock.png</File>
     <File>HinhAnh\HeThong\appbar.message.png</File>
     <File>HinhAnh\HeThong\appbar.page.search.png</File>
@@ -52,6 +55,11 @@
     <File>HinhAnh\HeThong\stick_Icon.png</File>
     <File>HinhAnh\HeThong\refresh.png</File>
     <File>README_FIRST.txt</File>
+    <File>Toolkit.Content\ApplicationBar.Add.png</File>
+    <File>Toolkit.Content\ApplicationBar.Cancel.png</File>
+    <File>Toolkit.Content\ApplicationBar.Check.png</File>
+    <File>Toolkit.Content\ApplicationBar.Delete.png</File>
+    <File>Toolkit.Content\ApplicationBar.Select.png</File>
     <File>AppManifest.xaml</File>
     <File>Assets\ApplicationIcon.png</File>
     <File>Assets\Tiles\FlipCycleTileMedium.png</File>
@@ -74,6 +82,11 @@
     <File>GalaSoft.MvvmLight.Extras.xml</File>
     <File>GalaSoft.MvvmLight.Platform.xml</File>
     <File>Microsoft.Practices.ServiceLocation.xml</File>
+    <File>Image\1.png</File>
+    <File>Image\2.png</File>
+    <File>Image\3.png</File>
+    <File>Image\4.png</File>
+    <File>Image\5.png</File>
     <File>ServiceReferences.ClientConfig</File>
     <File>WMAppManifest.xml</File>
     <File>AppxManifest.xml</File>

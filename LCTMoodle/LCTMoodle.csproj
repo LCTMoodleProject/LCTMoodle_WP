@@ -111,6 +111,12 @@
     <Compile Include="view_CaiDat.xaml.cs">
       <DependentUpon>view_CaiDat.xaml</DependentUpon>
     </Compile>
+    <Compile Include="view_CaNhan.xaml.cs">
+      <DependentUpon>view_CaNhan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="view_Captcha.xaml.cs">
+      <DependentUpon>view_Captcha.xaml</DependentUpon>
+    </Compile>
     <Compile Include="view_ChiTietCH.xaml.cs">
       <DependentUpon>view_ChiTietCH.xaml</DependentUpon>
     </Compile>
@@ -128,11 +134,11 @@
     <Compile Include="view_DatCauHoi.xaml.cs">
       <DependentUpon>view_DatCauHoi.xaml</DependentUpon>
     </Compile>
+    <Compile Include="view_NhacNho.xaml.cs">
+      <DependentUpon>view_NhacNho.xaml</DependentUpon>
+    </Compile>
     <Compile Include="view_QuenMatKhau.xaml.cs">
       <DependentUpon>view_QuenMatKhau.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="view_ThoiKhoaBieu.xaml.cs">
-      <DependentUpon>view_ThoiKhoaBieu.xaml</DependentUpon>
     </Compile>
     <Compile Include="view_TimKiem.xaml.cs">
       <DependentUpon>view_TimKiem.xaml</DependentUpon>
@@ -167,6 +173,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="view_CaNhan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="view_Captcha.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="view_ChiTietCH.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -187,11 +201,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="view_QuenMatKhau.xaml">
+    <Page Include="view_NhacNho.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="view_ThoiKhoaBieu.xaml">
+    <Page Include="view_QuenMatKhau.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -255,6 +269,8 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="BaiGiang.html" />
+    <Content Include="HinhAnh\HeThong\alarm_clock.png" />
     <Content Include="HinhAnh\HeThong\appbar.add.png" />
     <Content Include="HinhAnh\HeThong\appbar.check.png" />
     <Content Include="HinhAnh\HeThong\appbar.clock.png" />
@@ -263,6 +279,7 @@
     <Content Include="HinhAnh\HeThong\appbar.edit.box.png" />
     <Content Include="HinhAnh\HeThong\appbar.edit.png" />
     <Content Include="HinhAnh\HeThong\appbar.email.minimal.png" />
+    <Content Include="HinhAnh\HeThong\appbar.list.png" />
     <Content Include="HinhAnh\HeThong\appbar.lock.png" />
     <Content Include="HinhAnh\HeThong\appbar.message.png" />
     <Content Include="HinhAnh\HeThong\appbar.page.search.png" />
@@ -292,6 +309,11 @@
     <Content Include="HinhAnh\HeThong\stick_Icon.png" />
     <Content Include="HinhAnh\HeThong\refresh.png" />
     <Content Include="README_FIRST.txt" />
+    <Content Include="Toolkit.Content\ApplicationBar.Add.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">

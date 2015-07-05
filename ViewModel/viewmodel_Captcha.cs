@@ -30,6 +30,7 @@ namespace ViewModel
                 {
                     if (m_Captcha.MaCaptchaKhach == m_Captcha.MaCaptcha)
                     {
+                        helper_Captcha.XoaSoLanSai();
                         helper_Navigation h_Navigation = new helper_Navigation();
                         h_Navigation.NavigateTo(new Uri("/view_DangNhap.xaml", UriKind.Relative));
                     }

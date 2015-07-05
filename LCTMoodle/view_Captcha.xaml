@@ -1,0 +1,35 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="LCTMoodle.view_Captcha"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Convert="clr-namespace:LCTMoodle.View_Converter"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <phone:PhoneApplicationPage.Resources>
+        <Convert:converter_HinhAnh x:Name="HinhAnh_Convert"/>
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="#e6e6e6">
+        <StackPanel Margin="10,0">
+            <StackPanel x:Name="ContentPanel" DataContext="{Binding m_Captcha}" VerticalAlignment="Top" Width="456" Margin="0,20,0,0">
+                <Image Source="/HinhAnh/HeThong/logo.png" VerticalAlignment="Top" HorizontalAlignment="Left" Stretch="Fill" Width="300"></Image>
+				<TextBlock Margin="10,15,10,0" TextWrapping="Wrap" Text="Bạn đã nhập sai quá số lần quy định, để bảo đảm an toàn cho hệ thống xin mời nhập mã trong hình dưới vào ô trống để chứng minh bạn không phải là robot." FontSize="24" Foreground="#FF707070"/>
+                <Image HorizontalAlignment="Center" Source="{Binding ImageCap, Converter={StaticResource HinhAnh_Convert}}" Height="116" Margin="0,35,0,0" VerticalAlignment="Top" Width="203" Stretch="None"/>
+                <TextBox HorizontalAlignment="Left" Height="72" Margin="0,30,0,0" TextWrapping="Wrap" Text="{Binding MaCaptchaKhach, Mode=TwoWay}" VerticalAlignment="Top" Width="456"/>
+            </StackPanel>
+            <Button Content="Nhập" Margin="0,50,0,0" VerticalAlignment="Top" Command="{Binding CaptchaCommand}" Background="#FF8C8C8C"/>
+            <Button Content="Tải ảnh khác" Margin="0" VerticalAlignment="Top" Command="{Binding CaptchaTaoMoi}" Background="#FF8C8C8C"/>
+        </StackPanel>
+    </Grid>
+
+</phone:PhoneApplicationPage>

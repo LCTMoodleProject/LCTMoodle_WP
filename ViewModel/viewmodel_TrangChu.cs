@@ -78,7 +78,7 @@ namespace ViewModel
                 case 3:
                     {
                         TaiKhoanVisible = true;
-                        TaiKhoanVisible = true;
+                        TinNhanVisible = true;
                         BaoThucVisible = true;
                         TaiLaiVisible = true;
                         break;

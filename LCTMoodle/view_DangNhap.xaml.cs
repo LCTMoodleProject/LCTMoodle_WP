@@ -26,5 +26,10 @@ namespace LCTMoodle
         {
             login_Animation.Begin();
         }
+        protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
+        {
+            vm_dangNhap = new viewmodel_DangNhap();
+            this.DataContext = vm_dangNhap;
+        }
     }
 }

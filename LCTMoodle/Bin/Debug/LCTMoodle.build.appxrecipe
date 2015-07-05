@@ -273,6 +273,9 @@
     <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\LCTMoodle\Assets\Tiles\IconicTileSmall.png">
       <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\alarm_clock.png">
+      <PackagePath>HinhAnh\HeThong\alarm_clock.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.add.png">
       <PackagePath>HinhAnh\HeThong\appbar.add.png</PackagePath>
     </AppxPackagedFile>
@@ -296,6 +299,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.email.minimal.png">
       <PackagePath>HinhAnh\HeThong\appbar.email.minimal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.list.png">
+      <PackagePath>HinhAnh\HeThong\appbar.list.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\appbar.lock.png">
       <PackagePath>HinhAnh\HeThong\appbar.lock.png</PackagePath>
@@ -380,6 +386,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\LCTMoodle\HinhAnh\HeThong\refresh.png">
       <PackagePath>HinhAnh\HeThong\refresh.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\LCTMoodle\Toolkit.Content\ApplicationBar.Add.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Add.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\LCTMoodle\Toolkit.Content\ApplicationBar.Cancel.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Cancel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\LCTMoodle\Toolkit.Content\ApplicationBar.Check.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Check.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\LCTMoodle\Toolkit.Content\ApplicationBar.Delete.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Delete.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\LCTMoodle\Toolkit.Content\ApplicationBar.Select.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Select.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\ViewModel\Image\1.png">
+      <PackagePath>Image\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\ViewModel\Image\2.png">
+      <PackagePath>Image\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\ViewModel\Image\3.png">
+      <PackagePath>Image\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\ViewModel\Image\4.png">
+      <PackagePath>Image\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\ViewModel\Image\5.png">
+      <PackagePath>Image\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\LCTMoodle\BaiGiang.html">
+      <PackagePath>BaiGiang.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\HP\LCTMoodle\ver4\LCTMoodle_WP\LCTMoodle\README_FIRST.txt">
       <PackagePath>README_FIRST.txt</PackagePath>

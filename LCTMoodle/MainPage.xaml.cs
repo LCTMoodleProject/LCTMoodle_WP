@@ -21,7 +21,7 @@ namespace LCTMoodle
 
         private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/view_TrangChu.xaml", UriKind.Relative));
+            NavigationService.Navigate(new Uri("/view_CaNhan.xaml", UriKind.Relative));
         }
     }
 }

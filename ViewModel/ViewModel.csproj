@@ -108,6 +108,7 @@
     <Compile Include="viewmodel_CauHoi.cs" />
     <Compile Include="viewmodel_DangNhap.cs" />
     <Compile Include="viewmodel_KhoaHoc.cs" />
+    <Compile Include="viewmodel_NhacNho.cs" />
     <Compile Include="viewmodel_TrangChu.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -223,6 +224,11 @@
     <None Include="Service References\wcf_NguoiDung\wcf_NguoiDung1.xsd">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="Image\1.png" />
+    <Content Include="Image\2.png" />
+    <Content Include="Image\3.png" />
+    <Content Include="Image\4.png" />
+    <Content Include="Image\5.png" />
     <Content Include="ServiceReferences.ClientConfig" />
   </ItemGroup>
   <ItemGroup>

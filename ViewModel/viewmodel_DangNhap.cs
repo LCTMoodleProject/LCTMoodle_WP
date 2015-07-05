@@ -14,11 +14,13 @@ namespace ViewModel
     public class viewmodel_DangNhap : ViewModelBase
     {
         public model_DangNhap m_DangNhap { get; set; }
+        private int i_NhapSai = 0;
 
         #region Constructor
 
         public viewmodel_DangNhap()
         {
+            //KiemTraCaptcha();
             m_DangNhap = new model_DangNhap();
             _DangNhapCommand = new RelayCommand(() =>
             {
@@ -39,7 +41,23 @@ namespace ViewModel
                 }
             });
         }
-
+        public void XuLyNhapSai(int i_DonViSai)
+        {
+            if(helper_DangNhap.KiemTraSoLanNhapSai(i_DonViSai) == false)
+            {
+                helper_DangNhap.GhiFileDangNhap(i_DonViSai);
+                helper_Navigation h_Navigation = new helper_Navigation();
+                h_Navigation.NavigateTo(new Uri("/view_Captcha.xaml", UriKind.Relative));
+            }
+        }
+        //public void KiemTraCaptcha()
+        //{
+        //    if(helper_DangNhap.DocFileDangNhap() != "")
+        //    {
+        //        helper_Navigation h_Navigation = new helper_Navigation();
+        //        h_Navigation.NavigateTo(new Uri("/view_Captcha.xaml", UriKind.Relative));
+        //    }
+        //}
         #endregion
 
         #region Command
@@ -74,11 +92,15 @@ namespace ViewModel
                         case 1:
                             {
                                 MessageBox.Show("Tên đăng nhập không tồn tại");
+                                i_NhapSai += 1;
+                                XuLyNhapSai(i_NhapSai);
                                 break;
                             }
                         case 2:
                             {
                                 MessageBox.Show("Mật khẩu không chính xác");
+                                i_NhapSai += 1;
+                                XuLyNhapSai(i_NhapSai);
                                 break;
                             }
                         case 3:

@@ -10,16 +10,26 @@ using System.Windows.Resources;
 using System.Windows.Shapes;
 using System.Windows.Media;
 using System.Windows.Controls;
+using System.IO.IsolatedStorage;
 
 namespace Helper
 {
     public static class helper_Captcha
     {
+        
+        public static String _strCaptcha = "";
+        
+        public static void XoaSoLanSai()
+        {
+            IsolatedStorageFile isf = IsolatedStorageFile.GetUserStoreForApplication();
+            StreamWriter sw = new StreamWriter(new IsolatedStorageFileStream("DangNhapSai.txt", FileMode.Create, isf));
+            sw.Write("");
+            sw.Close();
+        }
         /// <summary>
         /// Lấy 5 ký tự bất kỳ từ chuỗi mã hóa MD5 của 1 ký tự trong hàm GetMD5
         /// </summary>
         /// <returns>5 ký tự bất kì cuối chuỗi</returns>
-        public static String _strCaptcha = "";
         public static void LayChuoiNgauNhien()
         {
             Random rand = new Random();
