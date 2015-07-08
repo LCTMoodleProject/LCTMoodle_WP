@@ -16,25 +16,25 @@
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="White">
-        <Rectangle Fill="#FF004263" HorizontalAlignment="Left" Height="65" Grid.RowSpan="2" Stroke="Black" VerticalAlignment="Top" Width="480"/>
+        <Rectangle Fill="#FF004263" HorizontalAlignment="Left" Height="65" Grid.RowSpan="2" Stroke="#FF004263" VerticalAlignment="Top" Width="480"/>
         <TextBlock HorizontalAlignment="Left" Margin="46,10,0,0" TextWrapping="Wrap" Text="NHẮC NHỞ" VerticalAlignment="Top" Height="47" Width="377" FontFamily="Segoe WP Light" FontSize="35" TextAlignment="Center"/>
         <StackPanel Margin="0,67,0,0" Visibility="{Binding BaoThucVisible}" Background="#e6e6e6">
             <Grid Height="524" Margin="5,30,0,0">
                 <StackPanel Orientation="Vertical" DataContext="{Binding m_NhacNho}" Margin="0,0,5,72">
-        			<TextBlock Text="Ngày" Foreground="#FF004263" FontSize="26.667" Margin="10,0,0,0"/>
-        			<toolkit:DatePicker x:Name="dpk_Ngay" Background="White" Foreground="Black" Value="{Binding NgayNhacNho, Mode=TwoWay}" BorderBrush="#BFFFFFFF" />
-        			<TextBlock Text="Giờ" Foreground="#FF004263" FontSize="26.667" Margin="10,0,0,0"/>
-        			<toolkit:TimePicker x:Name="tpk_Gio" Foreground="Black" BorderBrush="#BFFFFFFF" Value="{Binding GioNhacNho, Mode=TwoWay}" Background="White" />
-        			<TextBlock Text="Nội dung" Foreground="#FF004263" FontSize="26.667" Margin="10,0,0,0"/>
-        			<TextBox x:Name="txt_NoiDung" TextWrapping="Wrap" Height="200" BorderBrush="#BFFFFFFF" Text="{Binding NoiDung, Mode=TwoWay}"/>
+        			<TextBlock Text="Ngày" Foreground="#FF333333" FontSize="26.667" Margin="10,0,0,0"/>
+        			<toolkit:DatePicker x:Name="dpk_Ngay" Background="White" Foreground="Black" Value="{Binding NgayNhacNho, Mode=TwoWay}" BorderBrush="#FF0088CC" BorderThickness="5,0,0,0" Padding="0,0,5,0" />
+        			<TextBlock Text="Giờ" Foreground="#FF333333" FontSize="26.667" Margin="10,0,0,0"/>
+        			<toolkit:TimePicker x:Name="tpk_Gio" Foreground="Black" BorderBrush="#FF0088CC" Value="{Binding GioNhacNho, Mode=TwoWay}" Background="White" BorderThickness="5,0,0,0" Padding="0,0,5,0" />
+        			<TextBlock Text="Nội dung" Foreground="#FF333333" FontSize="26.667" Margin="10,0,0,0"/>
+        			<TextBox x:Name="txt_NoiDung" TextWrapping="Wrap" Height="200" BorderBrush="#FF0088CC" Text="{Binding NoiDung, Mode=TwoWay}" BorderThickness="5,0,0,0" Padding="2,2,8,2"/>
         		</StackPanel>
-        		<Button Content="Lưu" Height="72" x:Name="btn_Luu" VerticalAlignment="Top" Width="160" Margin="0,452,0,0" Foreground="Black" BorderBrush="Black" HorizontalAlignment="Right" Command="{Binding NhacNhoCommand}"/>
+        		<Button Content="Lưu" Height="75" x:Name="btn_Luu" VerticalAlignment="Top" Width="170" Margin="0,452,0,0" Foreground="#FF555555" BorderBrush="#FFDDDDDD" HorizontalAlignment="Right" Command="{Binding NhacNhoCommand}" Background="#FFF8F8F8"/>
         	</Grid>
         </StackPanel>
         <StackPanel Margin="5,80,5,0" Visibility="{Binding TatBaoThucVisible}" d:IsHidden="True">
-            <TextBlock Text="{Binding GioBaoThuc}" Foreground="#FF222630" FontSize="93.333" TextAlignment="Center"></TextBlock>
-			<TextBlock Text="{Binding NgayBaoThuc}" Foreground="#FF222630" FontSize="33.333" TextAlignment="Center"></TextBlock>
-			<Button Content="Đặt lại nhắc nhở" Foreground="White" BorderBrush="#FFFF001D" Command="{Binding DatLaiCommand}" Margin="0,30,0,0" Background="#FFFF001D" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding GioBaoThuc}" Foreground="#FF333333" FontSize="93.333" TextAlignment="Center"></TextBlock>
+			<TextBlock Text="{Binding NgayBaoThuc}" Foreground="#FF333333" FontSize="33.333" TextAlignment="Center"></TextBlock>
+			<Button Content="Đặt lại nhắc nhở" Foreground="#FF555555" BorderBrush="#FFDDDDDD" Command="{Binding DatLaiCommand}" Margin="0,30,0,0" Background="White" HorizontalAlignment="Center"/>
         </StackPanel>
     </Grid>
 </phone:PhoneApplicationPage>

@@ -7,4 +7,21 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="clientmodel_HinhAnh" nillable="true" type="tns:clientmodel_HinhAnh" />
+  <xs:complexType name="ArrayOfclientmodel_CauHoi">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clientmodel_CauHoi" nillable="true" type="tns:clientmodel_CauHoi" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclientmodel_CauHoi" nillable="true" type="tns:ArrayOfclientmodel_CauHoi" />
+  <xs:complexType name="clientmodel_CauHoi">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="HinhAnh" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ma" type="xs:int" />
+      <xs:element minOccurs="0" name="NguoiTao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NoiDung" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SoTraLoi" type="xs:int" />
+      <xs:element minOccurs="0" name="TieuDe" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clientmodel_CauHoi" nillable="true" type="tns:clientmodel_CauHoi" />
 </xs:schema>

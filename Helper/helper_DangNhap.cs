@@ -10,6 +10,11 @@ namespace Helper
 {
     public static class helper_DangNhap
     {
+        /// <summary>
+        /// Kiểm tra số lần nhập sai để đưa tới captcha
+        /// </summary>
+        /// <param name="i_SoLanSai">Số lần nhập sai</param>
+        /// <returns></returns>
         public static bool KiemTraSoLanNhapSai(int i_SoLanSai)
         {
             bool kq = true;
@@ -29,6 +34,10 @@ namespace Helper
             }
             return kq;
         }
+        /// <summary>
+        /// Ghi số lần nhập sai vào file text
+        /// </summary>
+        /// <param name="i_SoLanSai">số lần nhập sai</param>
         public static void GhiFileDangNhap(int i_SoLanSai)
         {
             IsolatedStorageFile isf = IsolatedStorageFile.GetUserStoreForApplication();
@@ -36,6 +45,10 @@ namespace Helper
             sw.WriteLine(i_SoLanSai);
             sw.Close();
         }
+        /// <summary>
+        /// Đọc số lần nhập sai
+        /// </summary>
+        /// <returns>nội dung file</returns>
         public static string DocFileDangNhap()
         {
             string str_NoiDung = "";

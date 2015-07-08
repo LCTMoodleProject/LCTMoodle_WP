@@ -23,7 +23,8 @@ namespace ViewModel
             set
             {
                 XuLyThayDoiTrang(value);
-                //RaisePropertyChanged("selectedIndex");
+                _selectedIndex = value;
+                RaisePropertyChanged("selectedIndex");
             }
         }
 
@@ -36,7 +37,31 @@ namespace ViewModel
             BaoThucVisible = false;
             TaiKhoanVisible = false;
             TinNhanVisible = false;
+
+            _LamMoiCommand = new RelayCommand(() =>
+            {
+                if(selectedIndex == 1)
+                {
+                    viewmodel_CauHoi_WS.lamMoi();
+                }
+                else
+                {
+                    MessageBox.Show("Khong phai trang cau hoi");
+                }
+
+            });
         }
+
+        #region Command
+        private RelayCommand _LamMoiCommand;
+        public RelayCommand LamMoiCommand
+        {
+            get
+            {
+                return _LamMoiCommand;
+            }
+        }
+        #endregion
 
         /// <summary>
         /// Hàm xử lý hiển thị button trên app bar tại view_TrangChu

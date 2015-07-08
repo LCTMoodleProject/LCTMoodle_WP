@@ -27,17 +27,30 @@
                     <Grid Background="#FF222630">
                         <TextBlock Text="Menu" FontSize="33.333" Height="65" Padding="0,15,0,0" TextAlignment="Center" Foreground="White" HorizontalAlignment="Left" Margin="30,0,0,0"></TextBlock>
                     </Grid>
-                    <Button Content="Nhiệm vụ mới" HorizontalContentAlignment="Left" VerticalAlignment="Top" BorderBrush="Transparent" Background="Transparent" BorderThickness="0" Margin="10,0,0,0"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/HinhAnh/HeThong/appbar.database.png" Stretch="Fill" Width="40" Height="40" Margin="25,0,0,0"/>
+						<Button Content="Nhiệm vụ mới" HorizontalContentAlignment="Stretch" VerticalAlignment="Top" BorderBrush="Transparent" Background="Transparent" BorderThickness="0" Margin="0" Padding="0,5,0,6"/>
+					</StackPanel>
                     <Line Stroke="White" X1="280" Width="278" Margin="18,0,0,0" Height="1"/>
-                    <Button Content="Bài giảng mới" HorizontalContentAlignment="Left" BorderBrush="Transparent" Background="Transparent" Margin="10,0,0,0" BorderThickness="0"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/HinhAnh/HeThong/appbar.book.list.png" Stretch="Fill" Width="40" Height="40" Margin="25,0,0,0"/>
+                        <Button Content="Bài giảng mới" HorizontalContentAlignment="Stretch" VerticalAlignment="Top" BorderBrush="Transparent" Background="Transparent" BorderThickness="0" Margin="0" Padding="0,5,0,6"/>
+                    </StackPanel>
                     <Line Stroke="White" X1="280" Width="278" Margin="18,0,0,0" Height="1"/>
-                    <Button Content="Bài tập mới" HorizontalContentAlignment="Left" BorderBrush="Transparent" Background="Transparent" Margin="10,0,0,0" BorderThickness="0"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/HinhAnh/HeThong/appbar.book.open.png" Stretch="Fill" Width="40" Height="40" Margin="25,0,0,0"/>
+                        <Button Content="Bài tập mới" HorizontalContentAlignment="Stretch" VerticalAlignment="Top" BorderBrush="Transparent" Background="Transparent" BorderThickness="0" Margin="0" Padding="0,5,0,6"/>
+                    </StackPanel>
                     <Line Stroke="White" StrokeThickness="1" X1="280" Width="278" Margin="18,0,0,0" Height="1"></Line>
-                    <Button Content="Đổi mật khẩu" HorizontalContentAlignment="Left" BorderBrush="Transparent" Background="Transparent" Margin="10,0,0,0" BorderThickness="0"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/HinhAnh/HeThong/appbar.interface.password.png" Stretch="Fill" Width="40" Height="40" Margin="25,0,0,0"/>
+                        <Button Content="Đổi mật khẩu" HorizontalContentAlignment="Stretch" VerticalAlignment="Top" BorderBrush="Transparent" Background="Transparent" BorderThickness="0" Margin="0" Padding="0,5,0,6"/>
+                    </StackPanel>
                     <Line Stroke="White" StrokeThickness="1" X1="280" Width="278" Margin="18,0,0,0" Height="1"></Line>
-                    <Button Content="Thông tin" HorizontalContentAlignment="Left" BorderBrush="Transparent" Background="Transparent" Margin="10,0,0,0" BorderThickness="0"/>
-                    <Line Stroke="White" StrokeThickness="1" X1="280" Width="278" Margin="18,0,0,0" Height="1"></Line>
-                    <Button Content="Đăng xuất" HorizontalContentAlignment="Left" BorderBrush="Transparent" Background="Transparent" Margin="10,0,0,0" BorderThickness="0"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/HinhAnh/HeThong/appbar.close.png" Stretch="Fill" Width="40" Height="40" Margin="25,0,0,0"/>
+                        <Button Content="Đăng xuất" HorizontalContentAlignment="Stretch" VerticalAlignment="Top" BorderBrush="Transparent" Background="Transparent" BorderThickness="0" Margin="0" Padding="0,5,0,6"/>
+                    </StackPanel>
                 </StackPanel>
             </Border>
             <Grid x:Name="grdCommands" Margin="0" CacheMode="BitmapCache" Grid.Column="1" Height="{Binding ActualHeight, ElementName=canvas}" Width="480" >
@@ -60,25 +73,25 @@
                                         <ImageBrush x:Name="img_acc" ImageSource="/HinhAnh/HeThong/pic_def.png"/>
                                     </Ellipse.Fill>
                                 </Ellipse>
-                                <TextBlock HorizontalAlignment="Center" TextAlignment="Center" Margin="0,0,12,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Huy Phu" Foreground="#FF004263" FontSize="38" RenderTransformOrigin="0.477,-1.149" Width="480"/>
-                                <TextBlock HorizontalAlignment="Left" Margin="12,0,0,0" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Text="21 tuổi" Foreground="#FF929598" FontSize="20" RenderTransformOrigin="0.477,-1.149" Width="480"/>
+                                <TextBlock HorizontalAlignment="Center" TextAlignment="Center" Margin="0,0,12,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Huy Phu" Foreground="#FF333333" FontSize="38" RenderTransformOrigin="0.477,-1.149" Width="480"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="12,0,0,0" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Text="21 tuổi" Foreground="#FF555555" FontSize="20" RenderTransformOrigin="0.477,-1.149" Width="480"/>
                                 <ListBox x:Name="list" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="17,0,24,0" VerticalAlignment="Top">
                                     <ListBoxItem BorderThickness="0,0,0,18">
                                         <StackPanel Width="480">
                                             <Image Source="/HinhAnh/HeThong/mail_acc.png" Margin="20,5,410,5" Height="50"/>
-                                            <TextBlock Text="hongphuls@gmail.com" Margin="20,0" FontSize="24" Foreground="#FF004263"/>
+                                            <TextBlock Text="hongphuls@gmail.com" Margin="20,0" FontSize="24" Foreground="#FF333333"/>
                                         </StackPanel>
                                     </ListBoxItem>
                                     <ListBoxItem Margin="0,0,0,20">
                                         <StackPanel Width="480">
                                             <Image Source="/HinhAnh/HeThong/phone_acc.png" Margin="20,5,410,5" Height="50"/>
-                                            <TextBlock Text="0903 176 123" Margin="20,0" FontSize="24" Foreground="#FF004263"/>
+                                            <TextBlock Text="0903 176 123" Margin="20,0" FontSize="24" Foreground="#FF333333"/>
                                         </StackPanel>
                                     </ListBoxItem>
                                     <ListBoxItem BorderThickness="0,0,0,20">
                                         <StackPanel Width="480">
                                             <Image Source="/HinhAnh/HeThong/home_acc.png" Margin="20,5,410,5" Height="50"/>
-                                            <TextBlock Text="65/89 Huỳnh Thúc Kháng, Phường 15, Quận 1" Margin="20,0" TextWrapping="Wrap" Height="66" FontSize="24" Foreground="#FF004263"/>
+                                            <TextBlock Text="65/89 Huỳnh Thúc Kháng, Phường 15, Quận 1" Margin="20,0" TextWrapping="Wrap" Height="66" FontSize="24" Foreground="#FF333333"/>
                                         </StackPanel>
                                     </ListBoxItem>
                                 </ListBox>

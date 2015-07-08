@@ -5,6 +5,7 @@
     <xs:complexContent mixed="false">
       <xs:extension base="tns:DTO">
         <xs:sequence>
+          <xs:element minOccurs="0" name="DuyetHienThi" type="xs:boolean" />
           <xs:element minOccurs="0" name="chuDe" nillable="true" type="tns:ChuDeDTO" />
           <xs:element minOccurs="0" name="danhSachTraLoi" nillable="true" type="tns:ArrayOfTraLoiDTO" />
           <xs:element minOccurs="0" name="diem" nillable="true" type="xs:int" />
@@ -66,6 +67,7 @@
     <xs:complexContent mixed="false">
       <xs:extension base="tns:DTO">
         <xs:sequence>
+          <xs:element minOccurs="0" name="daDuyet" type="xs:boolean" />
           <xs:element minOccurs="0" name="diaChi" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="diemHoiDap" nillable="true" type="xs:int" />
           <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
@@ -74,12 +76,12 @@
           <xs:element minOccurs="0" name="ho" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="maKichHoat" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="matKhau" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="matKhauCap2" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="ngaySinh" nillable="true" type="xs:dateTime" />
           <xs:element minOccurs="0" name="soDienThoai" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="ten" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="tenLot" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="tenTaiKhoan" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="thoiDiemPhucHoiMatKhau" nillable="true" type="xs:dateTime" />
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -98,6 +100,7 @@
           <xs:element minOccurs="0" name="cauHoi" nillable="true" type="tns:CauHoiDTO" />
           <xs:element minOccurs="0" name="diem" nillable="true" type="xs:int" />
           <xs:element minOccurs="0" name="duyet" type="xs:boolean" />
+          <xs:element minOccurs="0" name="duyetHienThi" type="xs:boolean" />
           <xs:element minOccurs="0" name="nguoiTao" nillable="true" type="tns:NguoiDungDTO" />
           <xs:element minOccurs="0" name="noiDung" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="thoiDiemCapNhat" nillable="true" type="xs:dateTime" />

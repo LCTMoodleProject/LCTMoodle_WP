@@ -27,14 +27,26 @@
 					<Grid Background="#FF222630">
 					    <TextBlock Text="Menu" FontSize="33.333" Height="65" Padding="0,15,0,0" TextAlignment="Center" Foreground="White" HorizontalAlignment="Left" Margin="30,0,0,0"></TextBlock>
 					</Grid>
-					<Button Content="Bài giảng" HorizontalContentAlignment="Left" VerticalAlignment="Top" BorderBrush="Transparent" Background="Transparent" BorderThickness="0" Margin="10,0,0,0"/>
+					<StackPanel Orientation="Horizontal">
+                        <Image Source="/HinhAnh/HeThong/appbar.book.list.png" Stretch="Fill" Width="40" Height="40" Margin="25,0,0,0"/>
+						<Button Content="Bài giảng" HorizontalContentAlignment="Stretch" VerticalAlignment="Top" BorderBrush="Transparent" Background="Transparent" BorderThickness="0" Margin="0" Padding="0,5,0,6"/>
+					</StackPanel>
                     <Line Stroke="White" X1="280" Width="278" Margin="18,0,0,0" Height="1"/>
-                    <Button Content="Bài tập" HorizontalContentAlignment="Left" BorderBrush="Transparent" Background="Transparent" Margin="10,0,0,0" BorderThickness="0"/>
-					<Line Stroke="White" X1="280" Width="278" Margin="18,0,0,0" Height="1"/>
-					<Button Content="Tài liệu" HorizontalContentAlignment="Left" BorderBrush="Transparent" Background="Transparent" Margin="10,0,0,0" BorderThickness="0"/>
-					<Line Stroke="White" StrokeThickness="1" X1="280" Width="278" Margin="18,0,0,0" Height="1"></Line>
-					<Button Content="Thông tin" HorizontalContentAlignment="Left" BorderBrush="Transparent" Background="Transparent" Margin="10,0,0,0" BorderThickness="0"/>
-				</StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/HinhAnh/HeThong/appbar.book.open.png" Stretch="Fill" Width="40" Height="40" Margin="25,0,0,0"/>
+                        <Button Content="Bài tập" HorizontalContentAlignment="Stretch" VerticalAlignment="Top" BorderBrush="Transparent" Background="Transparent" BorderThickness="0" Margin="0" Padding="0,5,0,6"/>
+                    </StackPanel>
+                    <Line Stroke="White" X1="280" Width="278" Margin="18,0,0,0" Height="1"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/HinhAnh/HeThong/appbar.database.png" Stretch="Fill" Width="40" Height="40" Margin="25,0,0,0"/>
+                        <Button Content="Tài liệu" HorizontalContentAlignment="Stretch" VerticalAlignment="Top" BorderBrush="Transparent" Background="Transparent" BorderThickness="0" Margin="0" Padding="0,5,0,6"/>
+                    </StackPanel>
+                    <Line Stroke="White" StrokeThickness="1" X1="280" Width="278" Margin="18,0,0,0" Height="1"></Line>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/HinhAnh/HeThong/appbar.information.circle.png" Stretch="Fill" Width="40" Height="40" Margin="25,0,0,0"/>
+                        <Button Content="Thông tin" HorizontalContentAlignment="Stretch" VerticalAlignment="Top" BorderBrush="Transparent" Background="Transparent" BorderThickness="0" Margin="0" Padding="0,5,0,6"/>
+                    </StackPanel>
+                </StackPanel>
 			</Border>
             <Grid x:Name="grdCommands" Margin="0" CacheMode="BitmapCache" Grid.Column="1" Height="{Binding ActualHeight, ElementName=canvas}" Width="480" >
                 <Grid.RowDefinitions>

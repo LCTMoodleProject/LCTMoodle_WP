@@ -307,6 +307,8 @@ namespace ViewModel.wcf_CauHoi {
     [System.Runtime.Serialization.DataContractAttribute(Name="NguoiDungDTO", Namespace="http://schemas.datacontract.org/2004/07/DTOLayer")]
     public partial class NguoiDungDTO : ViewModel.wcf_CauHoi.DTO {
         
+        private bool daDuyetField;
+        
         private string diaChiField;
         
         private System.Nullable<int> diemHoiDapField;
@@ -323,8 +325,6 @@ namespace ViewModel.wcf_CauHoi {
         
         private string matKhauField;
         
-        private string matKhauCap2Field;
-        
         private System.Nullable<System.DateTime> ngaySinhField;
         
         private string soDienThoaiField;
@@ -334,6 +334,21 @@ namespace ViewModel.wcf_CauHoi {
         private string tenLotField;
         
         private string tenTaiKhoanField;
+        
+        private System.Nullable<System.DateTime> thoiDiemPhucHoiMatKhauField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool daDuyet {
+            get {
+                return this.daDuyetField;
+            }
+            set {
+                if ((this.daDuyetField.Equals(value) != true)) {
+                    this.daDuyetField = value;
+                    this.RaisePropertyChanged("daDuyet");
+                }
+            }
+        }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string diaChi {
@@ -440,19 +455,6 @@ namespace ViewModel.wcf_CauHoi {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public string matKhauCap2 {
-            get {
-                return this.matKhauCap2Field;
-            }
-            set {
-                if ((object.ReferenceEquals(this.matKhauCap2Field, value) != true)) {
-                    this.matKhauCap2Field = value;
-                    this.RaisePropertyChanged("matKhauCap2");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
         public System.Nullable<System.DateTime> ngaySinh {
             get {
                 return this.ngaySinhField;
@@ -516,6 +518,19 @@ namespace ViewModel.wcf_CauHoi {
                 }
             }
         }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<System.DateTime> thoiDiemPhucHoiMatKhau {
+            get {
+                return this.thoiDiemPhucHoiMatKhauField;
+            }
+            set {
+                if ((this.thoiDiemPhucHoiMatKhauField.Equals(value) != true)) {
+                    this.thoiDiemPhucHoiMatKhauField = value;
+                    this.RaisePropertyChanged("thoiDiemPhucHoiMatKhau");
+                }
+            }
+        }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -528,6 +543,8 @@ namespace ViewModel.wcf_CauHoi {
         private System.Nullable<int> diemField;
         
         private bool duyetField;
+        
+        private bool duyetHienThiField;
         
         private ViewModel.wcf_CauHoi.NguoiDungDTO nguoiTaoField;
         
@@ -572,6 +589,19 @@ namespace ViewModel.wcf_CauHoi {
                 if ((this.duyetField.Equals(value) != true)) {
                     this.duyetField = value;
                     this.RaisePropertyChanged("duyet");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool duyetHienThi {
+            get {
+                return this.duyetHienThiField;
+            }
+            set {
+                if ((this.duyetHienThiField.Equals(value) != true)) {
+                    this.duyetHienThiField = value;
+                    this.RaisePropertyChanged("duyetHienThi");
                 }
             }
         }
@@ -634,6 +664,8 @@ namespace ViewModel.wcf_CauHoi {
     [System.Runtime.Serialization.DataContractAttribute(Name="CauHoiDTO", Namespace="http://schemas.datacontract.org/2004/07/DTOLayer")]
     public partial class CauHoiDTO : ViewModel.wcf_CauHoi.DTO {
         
+        private bool DuyetHienThiField;
+        
         private ViewModel.wcf_CauHoi.ChuDeDTO chuDeField;
         
         private System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.TraLoiDTO> danhSachTraLoiField;
@@ -651,6 +683,19 @@ namespace ViewModel.wcf_CauHoi {
         private System.Nullable<System.DateTime> thoiDiemTaoField;
         
         private string tieuDeField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool DuyetHienThi {
+            get {
+                return this.DuyetHienThiField;
+            }
+            set {
+                if ((this.DuyetHienThiField.Equals(value) != true)) {
+                    this.DuyetHienThiField = value;
+                    this.RaisePropertyChanged("DuyetHienThi");
+                }
+            }
+        }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public ViewModel.wcf_CauHoi.ChuDeDTO chuDe {
@@ -770,6 +815,111 @@ namespace ViewModel.wcf_CauHoi {
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="clientmodel_CauHoi", Namespace="http://schemas.datacontract.org/2004/07/LCTMoodle.WebServices.Client_Model")]
+    public partial class clientmodel_CauHoi : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string HinhAnhField;
+        
+        private int MaField;
+        
+        private string NguoiTaoField;
+        
+        private string NoiDungField;
+        
+        private int SoTraLoiField;
+        
+        private string TieuDeField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string HinhAnh {
+            get {
+                return this.HinhAnhField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.HinhAnhField, value) != true)) {
+                    this.HinhAnhField = value;
+                    this.RaisePropertyChanged("HinhAnh");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Ma {
+            get {
+                return this.MaField;
+            }
+            set {
+                if ((this.MaField.Equals(value) != true)) {
+                    this.MaField = value;
+                    this.RaisePropertyChanged("Ma");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string NguoiTao {
+            get {
+                return this.NguoiTaoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NguoiTaoField, value) != true)) {
+                    this.NguoiTaoField = value;
+                    this.RaisePropertyChanged("NguoiTao");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string NoiDung {
+            get {
+                return this.NoiDungField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NoiDungField, value) != true)) {
+                    this.NoiDungField = value;
+                    this.RaisePropertyChanged("NoiDung");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int SoTraLoi {
+            get {
+                return this.SoTraLoiField;
+            }
+            set {
+                if ((this.SoTraLoiField.Equals(value) != true)) {
+                    this.SoTraLoiField = value;
+                    this.RaisePropertyChanged("SoTraLoi");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string TieuDe {
+            get {
+                return this.TieuDeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TieuDeField, value) != true)) {
+                    this.TieuDeField = value;
+                    this.RaisePropertyChanged("TieuDe");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="wcf_CauHoi.Iwcf_CauHoi")]
     public interface Iwcf_CauHoi {
@@ -789,10 +939,15 @@ namespace ViewModel.wcf_CauHoi {
         
         ViewModel.wcf_CauHoi.CauHoiDTO EndlayTheoMa(System.IAsyncResult result);
         
-        [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/Iwcf_CauHoi/lay", ReplyAction="http://tempuri.org/Iwcf_CauHoi/layResponse")]
-        System.IAsyncResult Beginlay(int _SoDong, System.AsyncCallback callback, object asyncState);
+        [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/Iwcf_CauHoi/layTraLoiTheoMaCauHoi", ReplyAction="http://tempuri.org/Iwcf_CauHoi/layTraLoiTheoMaCauHoiResponse")]
+        System.IAsyncResult BeginlayTraLoiTheoMaCauHoi(int _Ma, System.AsyncCallback callback, object asyncState);
         
-        System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.CauHoiDTO> Endlay(System.IAsyncResult result);
+        System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.TraLoiDTO> EndlayTraLoiTheoMaCauHoi(System.IAsyncResult result);
+        
+        [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/Iwcf_CauHoi/lay", ReplyAction="http://tempuri.org/Iwcf_CauHoi/layResponse")]
+        System.IAsyncResult Beginlay(int _SoPT, System.AsyncCallback callback, object asyncState);
+        
+        System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.clientmodel_CauHoi> Endlay(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/Iwcf_CauHoi/timKiem", ReplyAction="http://tempuri.org/Iwcf_CauHoi/timKiemResponse")]
         System.IAsyncResult BegintimKiem(string _TuKhoa, System.AsyncCallback callback, object asyncState);
@@ -868,6 +1023,25 @@ namespace ViewModel.wcf_CauHoi {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class layTraLoiTheoMaCauHoiCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        public layTraLoiTheoMaCauHoiCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        public System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.TraLoiDTO> Result {
+            get {
+                base.RaiseExceptionIfNecessary();
+                return ((System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.TraLoiDTO>)(this.results[0]));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public partial class layCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
         
         private object[] results;
@@ -877,10 +1051,10 @@ namespace ViewModel.wcf_CauHoi {
             this.results = results;
         }
         
-        public System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.CauHoiDTO> Result {
+        public System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.clientmodel_CauHoi> Result {
             get {
                 base.RaiseExceptionIfNecessary();
-                return ((System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.CauHoiDTO>)(this.results[0]));
+                return ((System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.clientmodel_CauHoi>)(this.results[0]));
             }
         }
     }
@@ -944,6 +1118,12 @@ namespace ViewModel.wcf_CauHoi {
         private EndOperationDelegate onEndlayTheoMaDelegate;
         
         private System.Threading.SendOrPostCallback onlayTheoMaCompletedDelegate;
+        
+        private BeginOperationDelegate onBeginlayTraLoiTheoMaCauHoiDelegate;
+        
+        private EndOperationDelegate onEndlayTraLoiTheoMaCauHoiDelegate;
+        
+        private System.Threading.SendOrPostCallback onlayTraLoiTheoMaCauHoiCompletedDelegate;
         
         private BeginOperationDelegate onBeginlayDelegate;
         
@@ -1021,6 +1201,8 @@ namespace ViewModel.wcf_CauHoi {
         public event System.EventHandler<layHinhAnhChiSoCompletedEventArgs> layHinhAnhChiSoCompleted;
         
         public event System.EventHandler<layTheoMaCompletedEventArgs> layTheoMaCompleted;
+        
+        public event System.EventHandler<layTraLoiTheoMaCauHoiCompletedEventArgs> layTraLoiTheoMaCauHoiCompleted;
         
         public event System.EventHandler<layCompletedEventArgs> layCompleted;
         
@@ -1173,22 +1355,68 @@ namespace ViewModel.wcf_CauHoi {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.IAsyncResult ViewModel.wcf_CauHoi.Iwcf_CauHoi.Beginlay(int _SoDong, System.AsyncCallback callback, object asyncState) {
-            return base.Channel.Beginlay(_SoDong, callback, asyncState);
+        System.IAsyncResult ViewModel.wcf_CauHoi.Iwcf_CauHoi.BeginlayTraLoiTheoMaCauHoi(int _Ma, System.AsyncCallback callback, object asyncState) {
+            return base.Channel.BeginlayTraLoiTheoMaCauHoi(_Ma, callback, asyncState);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.CauHoiDTO> ViewModel.wcf_CauHoi.Iwcf_CauHoi.Endlay(System.IAsyncResult result) {
+        System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.TraLoiDTO> ViewModel.wcf_CauHoi.Iwcf_CauHoi.EndlayTraLoiTheoMaCauHoi(System.IAsyncResult result) {
+            return base.Channel.EndlayTraLoiTheoMaCauHoi(result);
+        }
+        
+        private System.IAsyncResult OnBeginlayTraLoiTheoMaCauHoi(object[] inValues, System.AsyncCallback callback, object asyncState) {
+            int _Ma = ((int)(inValues[0]));
+            return ((ViewModel.wcf_CauHoi.Iwcf_CauHoi)(this)).BeginlayTraLoiTheoMaCauHoi(_Ma, callback, asyncState);
+        }
+        
+        private object[] OnEndlayTraLoiTheoMaCauHoi(System.IAsyncResult result) {
+            System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.TraLoiDTO> retVal = ((ViewModel.wcf_CauHoi.Iwcf_CauHoi)(this)).EndlayTraLoiTheoMaCauHoi(result);
+            return new object[] {
+                    retVal};
+        }
+        
+        private void OnlayTraLoiTheoMaCauHoiCompleted(object state) {
+            if ((this.layTraLoiTheoMaCauHoiCompleted != null)) {
+                InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
+                this.layTraLoiTheoMaCauHoiCompleted(this, new layTraLoiTheoMaCauHoiCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
+            }
+        }
+        
+        public void layTraLoiTheoMaCauHoiAsync(int _Ma) {
+            this.layTraLoiTheoMaCauHoiAsync(_Ma, null);
+        }
+        
+        public void layTraLoiTheoMaCauHoiAsync(int _Ma, object userState) {
+            if ((this.onBeginlayTraLoiTheoMaCauHoiDelegate == null)) {
+                this.onBeginlayTraLoiTheoMaCauHoiDelegate = new BeginOperationDelegate(this.OnBeginlayTraLoiTheoMaCauHoi);
+            }
+            if ((this.onEndlayTraLoiTheoMaCauHoiDelegate == null)) {
+                this.onEndlayTraLoiTheoMaCauHoiDelegate = new EndOperationDelegate(this.OnEndlayTraLoiTheoMaCauHoi);
+            }
+            if ((this.onlayTraLoiTheoMaCauHoiCompletedDelegate == null)) {
+                this.onlayTraLoiTheoMaCauHoiCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnlayTraLoiTheoMaCauHoiCompleted);
+            }
+            base.InvokeAsync(this.onBeginlayTraLoiTheoMaCauHoiDelegate, new object[] {
+                        _Ma}, this.onEndlayTraLoiTheoMaCauHoiDelegate, this.onlayTraLoiTheoMaCauHoiCompletedDelegate, userState);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.IAsyncResult ViewModel.wcf_CauHoi.Iwcf_CauHoi.Beginlay(int _SoPT, System.AsyncCallback callback, object asyncState) {
+            return base.Channel.Beginlay(_SoPT, callback, asyncState);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.clientmodel_CauHoi> ViewModel.wcf_CauHoi.Iwcf_CauHoi.Endlay(System.IAsyncResult result) {
             return base.Channel.Endlay(result);
         }
         
         private System.IAsyncResult OnBeginlay(object[] inValues, System.AsyncCallback callback, object asyncState) {
-            int _SoDong = ((int)(inValues[0]));
-            return ((ViewModel.wcf_CauHoi.Iwcf_CauHoi)(this)).Beginlay(_SoDong, callback, asyncState);
+            int _SoPT = ((int)(inValues[0]));
+            return ((ViewModel.wcf_CauHoi.Iwcf_CauHoi)(this)).Beginlay(_SoPT, callback, asyncState);
         }
         
         private object[] OnEndlay(System.IAsyncResult result) {
-            System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.CauHoiDTO> retVal = ((ViewModel.wcf_CauHoi.Iwcf_CauHoi)(this)).Endlay(result);
+            System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.clientmodel_CauHoi> retVal = ((ViewModel.wcf_CauHoi.Iwcf_CauHoi)(this)).Endlay(result);
             return new object[] {
                     retVal};
         }
@@ -1200,11 +1428,11 @@ namespace ViewModel.wcf_CauHoi {
             }
         }
         
-        public void layAsync(int _SoDong) {
-            this.layAsync(_SoDong, null);
+        public void layAsync(int _SoPT) {
+            this.layAsync(_SoPT, null);
         }
         
-        public void layAsync(int _SoDong, object userState) {
+        public void layAsync(int _SoPT, object userState) {
             if ((this.onBeginlayDelegate == null)) {
                 this.onBeginlayDelegate = new BeginOperationDelegate(this.OnBeginlay);
             }
@@ -1215,7 +1443,7 @@ namespace ViewModel.wcf_CauHoi {
                 this.onlayCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnlayCompleted);
             }
             base.InvokeAsync(this.onBeginlayDelegate, new object[] {
-                        _SoDong}, this.onEndlayDelegate, this.onlayCompletedDelegate, userState);
+                        _SoPT}, this.onEndlayDelegate, this.onlayCompletedDelegate, userState);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -1428,16 +1656,29 @@ namespace ViewModel.wcf_CauHoi {
                 return _result;
             }
             
-            public System.IAsyncResult Beginlay(int _SoDong, System.AsyncCallback callback, object asyncState) {
+            public System.IAsyncResult BeginlayTraLoiTheoMaCauHoi(int _Ma, System.AsyncCallback callback, object asyncState) {
                 object[] _args = new object[1];
-                _args[0] = _SoDong;
+                _args[0] = _Ma;
+                System.IAsyncResult _result = base.BeginInvoke("layTraLoiTheoMaCauHoi", _args, callback, asyncState);
+                return _result;
+            }
+            
+            public System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.TraLoiDTO> EndlayTraLoiTheoMaCauHoi(System.IAsyncResult result) {
+                object[] _args = new object[0];
+                System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.TraLoiDTO> _result = ((System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.TraLoiDTO>)(base.EndInvoke("layTraLoiTheoMaCauHoi", _args, result)));
+                return _result;
+            }
+            
+            public System.IAsyncResult Beginlay(int _SoPT, System.AsyncCallback callback, object asyncState) {
+                object[] _args = new object[1];
+                _args[0] = _SoPT;
                 System.IAsyncResult _result = base.BeginInvoke("lay", _args, callback, asyncState);
                 return _result;
             }
             
-            public System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.CauHoiDTO> Endlay(System.IAsyncResult result) {
+            public System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.clientmodel_CauHoi> Endlay(System.IAsyncResult result) {
                 object[] _args = new object[0];
-                System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.CauHoiDTO> _result = ((System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.CauHoiDTO>)(base.EndInvoke("lay", _args, result)));
+                System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.clientmodel_CauHoi> _result = ((System.Collections.ObjectModel.ObservableCollection<ViewModel.wcf_CauHoi.clientmodel_CauHoi>)(base.EndInvoke("lay", _args, result)));
                 return _result;
             }
             

@@ -45,17 +45,31 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="layTraLoiTheoMaCauHoi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_Ma" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="layTraLoiTheoMaCauHoiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/DTOLayer" minOccurs="0" name="layTraLoiTheoMaCauHoiResult" nillable="true" type="q3:ArrayOfTraLoiDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="lay">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="_SoDong" type="xs:int" />
+        <xs:element minOccurs="0" name="_SoPT" type="xs:int" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="layResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/DTOLayer" minOccurs="0" name="layResult" nillable="true" type="q3:ArrayOfCauHoiDTO" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/LCTMoodle.WebServices.Client_Model" minOccurs="0" name="layResult" nillable="true" type="q4:ArrayOfclientmodel_CauHoi" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -69,7 +83,7 @@
   <xs:element name="timKiemResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/DTOLayer" minOccurs="0" name="timKiemResult" nillable="true" type="q4:ArrayOfCauHoiDTO" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/DTOLayer" minOccurs="0" name="timKiemResult" nillable="true" type="q5:ArrayOfCauHoiDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -84,7 +98,7 @@
   <xs:element name="timKiemTheoChuDeResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/DTOLayer" minOccurs="0" name="timKiemTheoChuDeResult" nillable="true" type="q5:ArrayOfCauHoiDTO" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/DTOLayer" minOccurs="0" name="timKiemTheoChuDeResult" nillable="true" type="q6:ArrayOfCauHoiDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

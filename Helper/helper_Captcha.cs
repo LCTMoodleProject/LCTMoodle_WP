@@ -18,7 +18,9 @@ namespace Helper
     {
         
         public static String _strCaptcha = "";
-        
+        /// <summary>
+        /// Sau khi nhập đúng captcha thì tiến hành xóa trắng file
+        /// </summary>
         public static void XoaSoLanSai()
         {
             IsolatedStorageFile isf = IsolatedStorageFile.GetUserStoreForApplication();
@@ -53,6 +55,10 @@ namespace Helper
 
             return sBuilder.ToString();
         }
+        /// <summary>
+        /// Vẽ hình ảnh cho captcha
+        /// </summary>
+        /// <returns>hình ảnh dạng byte array</returns>
         public static byte[] drawImage()
         {
             using (MemoryStream mem = new MemoryStream())

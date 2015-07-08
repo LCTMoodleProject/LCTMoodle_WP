@@ -37,7 +37,28 @@
         </Storyboard>
     </phone:PhoneApplicationPage.Resources>
 
-    
+    <!--chuyển trang-->
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+    <!--chuyển trang-->
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" 
@@ -86,14 +107,14 @@
                            Foreground="#8c8c8c" Margin="12,0,0,0"/>
                 <TextBox Text="{Binding TenDN , Mode=TwoWay}"
                          FontSize="25"
-                         Foreground="#8c8c8c"/>
+                         Foreground="#8c8c8c" Padding="5,2,2,2" BorderThickness="5,0,0,0" BorderBrush="#FF0088CC"/>
 
                 <TextBlock Text="Mật khẩu"
                            FontSize="25"
                            Foreground="#8c8c8c" Margin="12,0,0,0"/>
                 <PasswordBox Password="{Binding MatKhau, Mode=TwoWay}"
                              FontSize="25"
-                             Foreground="#8c8c8c"/>
+                             Foreground="#8c8c8c" Padding="5,2,2,2" BorderBrush="#FF0088CC" BorderThickness="5,0,0,0"/>
             </StackPanel>
 
             <StackPanel Grid.Row="1" 

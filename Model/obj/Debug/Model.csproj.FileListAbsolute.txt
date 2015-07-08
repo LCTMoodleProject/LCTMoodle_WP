@@ -1,4 +1,0 @@
-D:\HP\LCTMoodle\ver4\LCTMoodle_WP\Model\Bin\Debug\Model.dll
-D:\HP\LCTMoodle\ver4\LCTMoodle_WP\Model\Bin\Debug\Model.pdb
-D:\HP\LCTMoodle\ver4\LCTMoodle_WP\Model\obj\Debug\Model.dll
-D:\HP\LCTMoodle\ver4\LCTMoodle_WP\Model\obj\Debug\Model.pdb

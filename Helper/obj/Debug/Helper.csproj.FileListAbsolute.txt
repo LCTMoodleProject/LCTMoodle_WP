@@ -1,7 +1,0 @@
-D:\HP\LCTMoodle\ver4\LCTMoodle_WP\Helper\Bin\Debug\Helper.dll
-D:\HP\LCTMoodle\ver4\LCTMoodle_WP\Helper\Bin\Debug\Helper.pdb
-D:\HP\LCTMoodle\ver4\LCTMoodle_WP\Helper\Bin\Debug\Md5.WP7.dll
-D:\HP\LCTMoodle\ver4\LCTMoodle_WP\Helper\Bin\Debug\Md5.WP7.pdb
-D:\HP\LCTMoodle\ver4\LCTMoodle_WP\Helper\obj\Debug\Helper.dll
-D:\HP\LCTMoodle\ver4\LCTMoodle_WP\Helper\obj\Debug\Helper.pdb
-D:\HP\LCTMoodle\ver4\LCTMoodle_WP\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache

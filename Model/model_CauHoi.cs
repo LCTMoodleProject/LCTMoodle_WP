@@ -13,6 +13,8 @@ namespace Model
         private string _NoiDung;
         private string _NguoiTao;
         private int _SoTraLoi;
+        private string _ThoiGianTao;
+        private bool _Duyet;
         private byte[] _HinhAnh;
 
         public int Ma
@@ -67,6 +69,19 @@ namespace Model
             }
         }
 
+        public bool Duyet
+        {
+            get
+            {
+                return _Duyet;
+            }
+            set
+            {
+                _Duyet = value;
+                RaisePropertyChanged("Duyet");
+            }
+        }
+
         public int SoTraLoi
         {
             get
@@ -77,6 +92,19 @@ namespace Model
             {
                 _SoTraLoi = value;
                 RaisePropertyChanged("SoTraLoi");
+            }
+        }
+
+        public string ThoiGianTao
+        { 
+            get
+            {
+                return _ThoiGianTao;
+            }
+            set
+            {
+                _ThoiGianTao = value;
+                RaisePropertyChanged("ThoiGianTao");
             }
         }
 

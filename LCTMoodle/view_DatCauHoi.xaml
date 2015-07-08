@@ -15,12 +15,20 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="#FFECDFDF">
+    <Grid x:Name="LayoutRoot" Background="#FFE6E6E6">
         <Rectangle Fill="#FF004263" HorizontalAlignment="Left" Height="65" Grid.RowSpan="2" Stroke="Black" VerticalAlignment="Top" Width="480"/>
         <TextBlock HorizontalAlignment="Left" Margin="46,10,0,0" TextWrapping="Wrap" Text="TẠO CÂU HỎI" VerticalAlignment="Top" Height="47" Width="377" FontFamily="Segoe WP Light" FontSize="35" TextAlignment="Center"/>
-        <Grid Margin="0,89,0,352">
-            <toolkit:PhoneTextBox x:Name="txtTieuDeCauHoi" Hint="Tiêu đề câu hỏi" Background="White" VerticalAlignment="Top" BorderThickness="0" Padding="3"/>
-            <Button x:Name="btnDatCauHoi" Content="Xong" HorizontalAlignment="Left" Margin="0,188,0,0" VerticalAlignment="Top" Background="#FF004263" Height="78" Width="158" FontSize="22" Click="btnDatCauHoi_Click"/>
+        <Grid Margin="5,80,5,0">
+            <StackPanel Margin="0" Orientation="Vertical">
+                <TextBlock Text="Tiêu đề câu hỏi" Foreground="#FF333333" FontSize="24" Margin="14,0,0,0"/>
+                <TextBox x:Name="txt_TenThanhVien" Margin="0,0,0,30" Height="80" BorderThickness="5,0,0,0" BorderBrush="#FF0088CC" Padding="5,2,2,2"/>
+                <TextBlock Text="Nội dung" Foreground="#FF333333" FontSize="24" Margin="14,0,0,0"/>
+                <TextBox x:Name="txt_NoiDung" BorderThickness="5,0,0,0" TextWrapping="Wrap" BorderBrush="#FF0088CC" Padding="5,2,2,2" Height="300"/>
+                <StackPanel Margin="0,30,0,0" Orientation="Horizontal">
+                    <Button Content="Đăng" HorizontalAlignment="Center" Height="80" Width="207" RenderTransformOrigin="0.261,1.271" Background="White" VerticalAlignment="Center" Margin="12,0,0,0" BorderBrush="#FFDDDDDD" Foreground="#FF555555"/>
+                    <Button Content="Hủy" HorizontalAlignment="Center" Width="207" RenderTransformOrigin="0.261,1.271" Background="White" Height="80" Margin="30,0,0,0" VerticalAlignment="Center" BorderBrush="#FFDDDDDD" Foreground="#FF555555"/>
+                </StackPanel>
+            </StackPanel>
         </Grid>
     </Grid>
 

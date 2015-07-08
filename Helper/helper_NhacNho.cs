@@ -9,6 +9,12 @@ namespace Helper
 {
     public static class helper_NhacNho
     {
+        /// <summary>
+        /// Tạo nhắc nhở, truyền vào ngày, giờ, nội dung nhắc
+        /// </summary>
+        /// <param name="dt_Ngay">biến thời gian, ngày và giờ</param>
+        /// <param name="ts_Gio">biến giờ đc lấy ra từ ngày</param>
+        /// <param name="str_NoiDung">nội dung báo</param>
         public static void DatNhacNho(DateTime dt_Ngay, DateTime ts_Gio, string str_NoiDung)
         {
             TimeSpan ts_Gio_Day = ts_Gio.TimeOfDay;
@@ -25,6 +31,9 @@ namespace Helper
             };
             ScheduledActionService.Add(_Reminder);
         }
+        /// <summary>
+        /// Bỏ tiến trình nhắc nhở trong ActionService
+        /// </summary>
         public static void BoNhacNho()
         {
             try
@@ -36,6 +45,10 @@ namespace Helper
                 //khi không tìm thấy nhắc nhở
             }
         }
+        /// <summary>
+        /// Kiểm tra xem thời gian được đặt lần trc đó là bao nhiêu (nếu có đặt)
+        /// </summary>
+        /// <returns>trả về thời gian được đặt trước đó</returns>
         public static DateTime KiemTraThoiGianNhacNho()
         {
             DateTime dt;

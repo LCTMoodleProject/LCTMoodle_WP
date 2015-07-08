@@ -307,7 +307,8 @@
                 <appBar:ApplicationBarIconButton IconUri="/HinhAnh/HeThong/feature.search.png"
                                                  Text="tìm kiếm"
                                                  IsVisible="{Binding TimKiemVisible}"/>
-                <appBar:ApplicationBarIconButton IconUri="/HinhAnh/HeThong/refresh.png"
+                <appBar:ApplicationBarIconButton Command="{Binding LamMoiCommand}"
+                                                 IconUri="/HinhAnh/HeThong/refresh.png"
                                                  Text="tải lại"
                                                  IsVisible="{Binding TaiLaiVisible}"/>
             </appBar:ApplicationBarBehavior>

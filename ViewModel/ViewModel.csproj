@@ -105,10 +105,14 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="viewmodel_Captcha.cs" />
+    <Compile Include="viewmodel_CauHoi_ChiTiet.cs" />
+    <Compile Include="viewmodel_CauHoi_Limite.cs" />
     <Compile Include="viewmodel_CauHoi.cs" />
+    <Compile Include="viewmodel_CauHoi_WS.cs" />
     <Compile Include="viewmodel_DangNhap.cs" />
     <Compile Include="viewmodel_KhoaHoc.cs" />
     <Compile Include="viewmodel_NhacNho.cs" />
+    <Compile Include="viewmodel_TimKiem.cs" />
     <Compile Include="viewmodel_TrangChu.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -138,7 +142,13 @@
     <None Include="Service References\wcf_CauHoi\ViewModel.wcf_CauHoi.CauHoiDTO.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\wcf_CauHoi\ViewModel.wcf_CauHoi.clientmodel_CauHoi.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\wcf_CauHoi\ViewModel.wcf_CauHoi.clientmodel_HinhAnh.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wcf_CauHoi\ViewModel.wcf_CauHoi.TraLoiDTO.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\wcf_CauHoi\wcf_CauHoi.disco" />

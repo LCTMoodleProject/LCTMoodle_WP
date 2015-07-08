@@ -1,4 +1,0 @@
-D:\HP\LCTMoodle\ver4\LCTMoodle_WP\Helper\Helper.csproj;neutral
-D:\HP\LCTMoodle\ver4\LCTMoodle_WP\LCTMoodle\LCTMoodle.csproj;neutral
-D:\HP\LCTMoodle\ver4\LCTMoodle_WP\Model\Model.csproj;neutral
-D:\HP\LCTMoodle\ver4\LCTMoodle_WP\ViewModel\ViewModel.csproj;neutral

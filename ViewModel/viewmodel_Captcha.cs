@@ -49,6 +49,9 @@ namespace ViewModel
         }
         #endregion
         #region Hàm
+        /// <summary>
+        /// Lấy mã và hình ảnh để đổ vào view
+        /// </summary>
         public void TaoCaptcha()
         {
             m_Captcha = new model_Captcha();
@@ -57,6 +60,9 @@ namespace ViewModel
             m_Captcha.ImageCap = helper_Captcha.drawImage();
             m_Captcha.MaCaptchaKhach = "";
         }
+        /// <summary>
+        /// Phục vụ cho việc tải captcha khác
+        /// </summary>
         public void TaoMoi()
         {
             helper_Captcha.LayChuoiNgauNhien();

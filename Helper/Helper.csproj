@@ -85,8 +85,10 @@
   <ItemGroup>
     <Compile Include="helper_Captcha.cs" />
     <Compile Include="helper_DangNhap.cs" />
+    <Compile Include="helper_HinhAnh.cs" />
     <Compile Include="helper_Navigation.cs" />
     <Compile Include="helper_NhacNho.cs" />
+    <Compile Include="helper_TimKiem.cs" />
     <Compile Include="INavigationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

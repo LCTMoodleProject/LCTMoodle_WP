@@ -20,5 +20,8 @@ namespace LCTMoodle.View_UserControl
             vm_CauHoi = new viewmodel_CauHoi();
             this.DataContext = vm_CauHoi;
         }
+
+        
+
     }
 }

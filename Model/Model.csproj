@@ -89,6 +89,8 @@
     <Compile Include="model_DangNhap.cs" />
     <Compile Include="model_KhoaHoc.cs" />
     <Compile Include="model_NhacNho.cs" />
+    <Compile Include="model_Picker.cs" />
+    <Compile Include="model_TimKiem.cs" />
     <Compile Include="model_TrangChu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

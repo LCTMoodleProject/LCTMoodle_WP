@@ -19,34 +19,38 @@
     
     <Grid x:Name="LayoutRoot" Height="630">
         <ListBox ItemsSource="{Binding Path=lst_KhoaHoc}"
-                 SelectedItem="{Binding KhoaHocSelected,Mode=TwoWay}">
+                 SelectedItem="{Binding KhoaHocSelected,Mode=TwoWay}" Margin="6,10">
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="80"></ColumnDefinition>
-                            <ColumnDefinition Width="375"></ColumnDefinition>
-                        </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Horizontal">
                         <Image Source="{Binding HinhAnh , Converter={StaticResource HinhAnh_Convert}}"
                                    Width="70" Height="70"
-                                   Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"></Image>
-                        <StackPanel Grid.Column="1">
+                                   Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,0,0,0"></Image>
+                        <StackPanel Orientation="Vertical" Margin="10,0,0,0">
                             <TextBlock Text="{Binding Ten}"
-                                           Foreground="Black"></TextBlock>
+                                           Foreground="#333" FontSize="25"></TextBlock>
                             <TextBlock Text="{Binding MoTa , Converter={StaticResource MoTa_Convert}}"
                                            Width="auto"
                                            Height="auto"
                                            TextWrapping="Wrap"
                                            Foreground="#5c5c5c"></TextBlock>
-
                             <TextBlock Text="{Binding ThongKeKhoaHocCon}" 
                                            HorizontalAlignment="Right"
                                            Foreground="#5c5c5c"
                                            Grid.Column="1"></TextBlock>
                         </StackPanel>
-                    </Grid>
+                    </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="Background" Value="White"/>
+                    <Setter Property="BorderBrush" Value="#333"/>
+                    <Setter Property="BorderThickness" Value="5,0,0,0"/>
+                    <Setter Property="Padding" Value="0,5"/>
+                    <Setter Property="Margin" Value="0,0,0,10"/>
+                </Style>
+            </ListBox.ItemContainerStyle>
         </ListBox>
     </Grid>
 </UserControl>

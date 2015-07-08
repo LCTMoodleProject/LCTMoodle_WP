@@ -117,13 +117,17 @@
     <Compile Include="view_Captcha.xaml.cs">
       <DependentUpon>view_Captcha.xaml</DependentUpon>
     </Compile>
-    <Compile Include="view_ChiTietCH.xaml.cs">
-      <DependentUpon>view_ChiTietCH.xaml</DependentUpon>
+    <Compile Include="view_CauHoi_ChiTiet.xaml.cs">
+      <DependentUpon>view_CauHoi_ChiTiet.xaml</DependentUpon>
     </Compile>
     <Compile Include="view_ChiTietKH.xaml.cs">
       <DependentUpon>view_ChiTietKH.xaml</DependentUpon>
     </Compile>
+    <Compile Include="view_ChiTietTN.xaml.cs">
+      <DependentUpon>view_ChiTietTN.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View_Converter\converter_HinhAnh.cs" />
+    <Compile Include="View_Converter\converter_HTML.cs" />
     <Compile Include="View_Converter\converter_MoTa.cs" />
     <Compile Include="view_DangKy.xaml.cs">
       <DependentUpon>view_DangKy.xaml</DependentUpon>
@@ -140,8 +144,14 @@
     <Compile Include="view_QuenMatKhau.xaml.cs">
       <DependentUpon>view_QuenMatKhau.xaml</DependentUpon>
     </Compile>
+    <Compile Include="view_SoanTinNhan.xaml.cs">
+      <DependentUpon>view_SoanTinNhan.xaml</DependentUpon>
+    </Compile>
     <Compile Include="view_TimKiem.xaml.cs">
       <DependentUpon>view_TimKiem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="view_TinNhan.xaml.cs">
+      <DependentUpon>view_TinNhan.xaml</DependentUpon>
     </Compile>
     <Compile Include="view_TrangChu.xaml.cs">
       <DependentUpon>view_TrangChu.xaml</DependentUpon>
@@ -181,11 +191,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="view_ChiTietCH.xaml">
+    <Page Include="view_CauHoi_ChiTiet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="view_ChiTietKH.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="view_ChiTietTN.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -209,7 +223,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="view_SoanTinNhan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="view_TimKiem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="view_TinNhan.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -270,15 +292,21 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="BaiGiang.html" />
-    <Content Include="HinhAnh\HeThong\alarm_clock.png" />
     <Content Include="HinhAnh\HeThong\appbar.add.png" />
+    <Content Include="HinhAnh\HeThong\appbar.arrow.right.png" />
+    <Content Include="HinhAnh\HeThong\appbar.book.list.png" />
+    <Content Include="HinhAnh\HeThong\appbar.book.open.png" />
     <Content Include="HinhAnh\HeThong\appbar.check.png" />
     <Content Include="HinhAnh\HeThong\appbar.clock.png" />
+    <Content Include="HinhAnh\HeThong\appbar.close.png" />
+    <Content Include="HinhAnh\HeThong\appbar.database.png" />
     <Content Include="HinhAnh\HeThong\appbar.delete.png" />
     <Content Include="HinhAnh\HeThong\appbar.draw.pencil.png" />
     <Content Include="HinhAnh\HeThong\appbar.edit.box.png" />
     <Content Include="HinhAnh\HeThong\appbar.edit.png" />
     <Content Include="HinhAnh\HeThong\appbar.email.minimal.png" />
+    <Content Include="HinhAnh\HeThong\appbar.information.circle.png" />
+    <Content Include="HinhAnh\HeThong\appbar.interface.password.png" />
     <Content Include="HinhAnh\HeThong\appbar.list.png" />
     <Content Include="HinhAnh\HeThong\appbar.lock.png" />
     <Content Include="HinhAnh\HeThong\appbar.message.png" />
@@ -296,6 +324,7 @@
     <Content Include="HinhAnh\HeThong\cencar.png" />
     <Content Include="HinhAnh\HeThong\content.png" />
     <Content Include="HinhAnh\HeThong\course-icon.png" />
+    <Content Include="HinhAnh\HeThong\default_NguoiDung.png" />
     <Content Include="HinhAnh\HeThong\Documents.png" />
     <Content Include="HinhAnh\HeThong\feature.search.png" />
     <Content Include="HinhAnh\HeThong\home_acc.png" />
@@ -305,6 +334,7 @@
     <Content Include="HinhAnh\HeThong\pic_def.png" />
     <Content Include="HinhAnh\HeThong\Question.png" />
     <Content Include="HinhAnh\HeThong\ten_khoa.png" />
+    <Content Include="HinhAnh\HeThong\Toolbar.Delete.png" />
     <Content Include="HinhAnh\HeThong\topic-icon.png" />
     <Content Include="HinhAnh\HeThong\stick_Icon.png" />
     <Content Include="HinhAnh\HeThong\refresh.png" />

@@ -20,7 +20,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="46,10,0,0" TextWrapping="Wrap" Text="CÀI ĐẶT" VerticalAlignment="Top" Height="47" Width="377" FontFamily="Segoe WP Light" FontSize="35" TextAlignment="Center"/>
         <Grid Margin="0,89,0,352">
         	<StackPanel Margin="0" Orientation="Vertical">
-                <toolkit:ToggleSwitch Header="Tự động thông báo" VerticalAlignment="Top" Foreground="#FF151313">
+                <toolkit:ToggleSwitch Header="Tự động thông báo" VerticalAlignment="Top" Foreground="#FF555555" Background="#FFDDDDDD">
                     <toolkit:ToggleSwitch.HeaderTemplate>
                         <DataTemplate>
                             <TextBlock FontFamily="{StaticResource PhoneFontFamilyNormal}"
