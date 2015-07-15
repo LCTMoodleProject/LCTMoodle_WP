@@ -1,5 +1,0 @@
-D:\projects\Md5.WP7\lib\wp7\Md5.WP7.dll
-D:\projects\Md5.WP7\lib\wp7\Md5.WP7.pdb
-D:\projects\Md5.WP7\Md5.WP7\obj\Release\Md5.WP7.csprojResolveAssemblyReference.cache
-D:\projects\Md5.WP7\Md5.WP7\obj\Release\Md5.WP7.dll
-D:\projects\Md5.WP7\Md5.WP7\obj\Release\Md5.WP7.pdb
